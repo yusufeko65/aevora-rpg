@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var world: PrototypeZone = $PrototypeZone
-@onready var player: PlayerController = $Player
+@onready var player: PlayerController = $PrototypeZone/Player
 
 
 func _ready() -> void:

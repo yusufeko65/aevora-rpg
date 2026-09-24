@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://b6ulaac841qf5" path="res://scenes/main/main.gd" id="1_main"]
 [ext_resource type="PackedScene" path="res://scenes/world/prototype_zone.tscn" id="2_world"]
-[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="3_player"]
 [ext_resource type="PackedScene" path="res://scenes/ui/debug_hud.tscn" id="4_hud"]
 
 [node name="Main" type="Node2D" unique_id=1123037579]
@@ -11,9 +10,6 @@ script = ExtResource("1_main")
 
 [node name="PrototypeZone" parent="." unique_id=1857203768 instance=ExtResource("2_world")]
 
-[node name="Player" parent="." unique_id=2130250055 instance=ExtResource("3_player")]
-
 [node name="DebugHud" parent="." unique_id=130980126 instance=ExtResource("4_hud")]
-visible = false
-player_path = NodePath("../Player")
+player_path = NodePath("../PrototypeZone/Player")
 world_path = NodePath("../PrototypeZone")

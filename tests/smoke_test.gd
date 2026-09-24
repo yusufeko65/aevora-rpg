@@ -12,21 +12,24 @@ func _run() -> void:
 	root.add_child(main)
 	await process_frame
 
-	var player := main.get_node("Player") as PlayerController
+	var player := main.get_node("PrototypeZone/Player") as PlayerController
 	var world := main.get_node("PrototypeZone") as PrototypeZone
-	var npc := world.get_node("RiverWarden") as PrototypeNpc
+	var npc := world.get_node("TestFarmer") as PrototypeNpc
 	var npc_target := npc.get_node("InteractionTarget") as InteractionTarget
 	var sign_target := world.get_node("RiverSign/InteractionTarget") as InteractionTarget
 
 	_assert(player != null, "Reusable player is present")
 	_assert(world.zone_id == "prototype.first_village_edge", "Zone uses a stable ID")
-	_assert(npc.identity != null and npc.identity.stable_id == "npc.prototype.river_warden", "NPC identity is data-driven")
+	_assert(npc.identity != null and npc.identity.stable_id == "npc.prototype.test_farmer", "NPC identity is data-driven")
 	_assert(npc_target.is_in_group("interactable") and sign_target.is_in_group("interactable"), "NPC and object share the interaction contract")
-	_assert(npc_target.interact(player).begins_with("River Warden:"), "NPC interaction returns its configured response")
+	_assert(npc_target.interact(player).begins_with("Field Farmer:"), "NPC interaction returns its configured response")
 	_assert(player.collision_layer == 2 and player.collision_mask == 1, "Player collision layers target world geometry")
 	_assert(player.get_node("InteractionProbe").collision_mask == 4, "Interaction probe targets interactables only")
+	_assert(player.get_node("Visual") is Sprite2D, "Player uses the DEV-002 sprite sheet")
+	_assert(world.get_node("PlayerHome/Sprite") is Sprite2D, "Visual slice includes the player home")
+	_assert(world.get_node("Bridge01") is Sprite2D, "Visual slice includes the river bridge")
 
-	print("DEV-001 smoke test passed")
+	print("DEV-002 smoke test passed")
 	quit(0)
 
 

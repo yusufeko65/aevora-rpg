@@ -38,4 +38,14 @@ Reviewed before implementation: DEV-001 handoff, Board Game, Core Story Telling,
 - Placeholder geometry and colors are implementation aids, not canonical art.
 - The test NPC title and stable ID are prototype-only content.
 - Movement speed, 48 px interaction radius, and map dimensions are tuning values.
-- The project remains an unversioned working directory; Git status cannot be recorded here.
+- The project is versioned in Git; DEV-002 changes remain reviewable as a focused visual-slice diff.
+
+## DEV-002 visual slice
+
+- Imported the eight supplied temporary component PNGs under `res://art/prototype/dev_002/` without modifying their source pixels.
+- Replaced player and NPC polygon markers with four-direction sprite-sheet regions while preserving their existing controllers and interaction contract.
+- Rebuilt the zone as a warm tropical home slice with grass variation, an organic dirt road, layered river water/banks, player cottage, crop plot, fence, bridge, tropical trees, and test farmer.
+- Established Y-sorted object origins and independent footprint/trunk/bank/fence collision shapes. The bridge is the intentional river crossing.
+- Removed all permanent world labels. The F1 overlay is hidden by default and shows zone, position, focus, FPS, and renderer.
+- All imported sprites use nearest filtering through their scene-level `texture_filter = 1`; Compatibility rendering and integer window scaling remain active.
+- The DEV-002 smoke test passes, and the reviewed gameplay capture is stored at `docs/screenshots/dev-002-visual-slice.png`.

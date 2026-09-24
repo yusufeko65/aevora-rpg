@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_player"]
+[ext_resource type="Texture2D" path="res://art/prototype/dev_002/characters/four_direction_villager_sprite_sheet.png" id="2_texture"]
 
 [sub_resource type="CapsuleShape2D" id="Capsule_player"]
 radius = 7.0
@@ -16,17 +17,16 @@ collision_mask = 1
 script = ExtResource("1_player")
 
 [node name="Shadow" type="Polygon2D" parent="."]
-polygon = PackedVector2Array(-9, 7, 9, 7, 7, 11, -7, 11)
+polygon = PackedVector2Array(-11, 7, 11, 7, 8, 12, -8, 12)
 color = Color(0.11, 0.14, 0.13, 0.42)
 
-[node name="Body" type="Polygon2D" parent="."]
-polygon = PackedVector2Array(-8, -13, 8, -13, 10, 5, 0, 12, -10, 5)
-color = Color(0.19, 0.44, 0.51, 1)
-
-[node name="FacingMark" type="Polygon2D" parent="."]
-polygon = PackedVector2Array(-3, -3, 3, -3, 0, 3)
-position = Vector2(0, 2)
-color = Color(0.95, 0.86, 0.52, 1)
+[node name="Visual" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -18)
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_texture")
+region_enabled = true
+region_rect = Rect2(276, 10, 224, 260)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3)
@@ -38,7 +38,7 @@ position_smoothing_enabled = false
 limit_left = 0
 limit_top = 0
 limit_right = 1152
-limit_bottom = 648
+limit_bottom = 720
 
 [node name="InteractionProbe" type="Area2D" parent="."]
 collision_layer = 0

@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_identity")
-stable_id = "npc.prototype.river_warden"
-display_name = "River Warden"
-greeting = "The river is calm today. Keep to the bank—the current is stronger than it looks."
-profession_tag = "warden"
+stable_id = "npc.prototype.test_farmer"
+display_name = "Field Farmer"
+greeting = "The young greens took well after the rain. Mind the river bank if you head south."
+profession_tag = "farmer"
