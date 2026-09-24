@@ -20,7 +20,7 @@ layout_mode = 0
 offset_left = 10.0
 offset_top = 10.0
 offset_right = 280.0
-offset_bottom = 132.0
+offset_bottom = 174.0
 color = Color(0.055, 0.071, 0.067, 0.82)
 
 [node name="Margin" type="MarginContainer" parent="Root/DebugPanel"]

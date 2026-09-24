@@ -6,6 +6,8 @@ func _initialize() -> void:
 
 
 func _capture() -> void:
+	var collision_capture := "--collision-capture" in OS.get_cmdline_user_args()
+	debug_collisions_hint = collision_capture
 	var packed := load("res://scenes/main/main.tscn") as PackedScene
 	var main := packed.instantiate()
 	root.add_child(main)
@@ -16,7 +18,8 @@ func _capture() -> void:
 		await process_frame
 	await RenderingServer.frame_post_draw
 	var image := root.get_viewport().get_texture().get_image()
-	var output := ProjectSettings.globalize_path("res://docs/screenshots/dev-002-visual-slice.png")
+	var filename := "dev-003-collision-review.png" if collision_capture else "dev-003-stabilized-slice.png"
+	var output := ProjectSettings.globalize_path("res://docs/screenshots/%s" % filename)
 	var error := image.save_png(output)
 	if error != OK:
 		push_error("Could not save visual-slice screenshot: %s" % error_string(error))

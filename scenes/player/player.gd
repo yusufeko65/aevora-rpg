@@ -2,9 +2,11 @@ class_name PlayerController
 extends CharacterBody2D
 
 signal focused_target_changed(target: InteractionTarget)
-signal interaction_completed(message: String)
+signal interaction_completed(source: InteractionTarget, message: String)
 
 @export var move_speed := 112.0
+@export var interaction_enter_radius := 44.0
+@export var interaction_exit_radius := 56.0
 
 @onready var interaction_probe: Area2D = $InteractionProbe
 @onready var visual: Sprite2D = $Visual
@@ -52,10 +54,14 @@ func _update_focused_target() -> void:
 		var candidate := area as InteractionTarget
 		if not candidate.can_interact(self):
 			continue
-		var distance := global_position.distance_squared_to(candidate.global_position)
-		if distance < nearest_distance:
+		var distance := global_position.distance_to(candidate.global_position)
+		if distance <= interaction_enter_radius and distance < nearest_distance:
 			nearest = candidate
 			nearest_distance = distance
+	if is_instance_valid(focused_target) and focused_target.can_interact(self):
+		var focused_distance := global_position.distance_to(focused_target.global_position)
+		if focused_distance <= interaction_exit_radius and (nearest == null or focused_distance <= nearest_distance):
+			nearest = focused_target
 	if nearest == focused_target:
 		return
 	if is_instance_valid(focused_target):
@@ -68,11 +74,10 @@ func _update_focused_target() -> void:
 
 func _interact() -> void:
 	if not is_instance_valid(focused_target):
-		interaction_completed.emit("Nothing nearby responds.")
 		return
 	var response := focused_target.interact(self)
 	if not response.is_empty():
-		interaction_completed.emit(response)
+		interaction_completed.emit(focused_target, response)
 
 
 func _update_visual(input_vector: Vector2) -> void:

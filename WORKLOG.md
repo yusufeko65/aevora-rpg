@@ -49,3 +49,19 @@ Reviewed before implementation: DEV-001 handoff, Board Game, Core Story Telling,
 - Removed all permanent world labels. The F1 overlay is hidden by default and shows zone, position, focus, FPS, and renderer.
 - All imported sprites use nearest filtering through their scene-level `texture_filter = 1`; Compatibility rendering and integer window scaling remain active.
 - The DEV-002 smoke test passes, and the reviewed gameplay capture is stored at `docs/screenshots/dev-002-visual-slice.png`.
+
+## DEV-003 stabilization
+
+- Replaced all eight supplied prototype PNGs in place. The six environment/building sources are now 256×256; the compressed player and farmer sprite sheets retain their required 1448×1086 atlas dimensions. Godot re-imported them without broken texture paths.
+- Retuned the 256 px environment sprites to deliberate 1:1 scale. Character sheets remain at 0.24 scale because their atlas dimensions did not change.
+- Player ground collision is a vertical capsule with radius 7 px and height 18 px, offset 3 px toward the feet.
+- Each tree uses a trunk/root capsule with radius 17 px and height 30 px; canopy pixels remain non-blocking and participate in Y-sort.
+- The garden uses three 146×14 px row colliders with gaps between rows and an unblocked outer margin.
+- Fence collision uses separate 232×10 px rail and 10×88 px post/side shapes; the eastern opening remains traversable.
+- The river uses two full-depth blockers spanning its 146 px water band. The bridge leaves a 68 px walkable corridor between x=292 and x=360, bounded by two 10×122 px side rails with open north/south endpoints.
+- Interaction focus uses a 44 px enter radius and 56 px exit radius. A nearer valid target can replace the current focus; invalid, disabled, freed, or out-of-range targets clear it.
+- Interaction messages retain their `InteractionTarget` source and keep a 4-second secondary timeout. They close immediately when the source is invalid/freed, disabled, outside the 56 px exit radius, or replaced by another focus.
+- F1 shows focus/session/radius/runtime state. F2 toggles collision visualization for development review.
+- Updated the smoke test for structural colliders and owned-message lifecycle. Added a movement/collision test covering two-way bridge crossing, river rejection, bridge side rails, tree cardinal/diagonal blocking, crop rows/margins, fence opening, and house blocking.
+- Godot import, DEV-003 smoke test, and collision traversal test pass. Runtime clean and collision-overlay captures were reviewed at `docs/screenshots/dev-003-stabilized-slice.png` and `docs/screenshots/dev-003-collision-review.png`.
+- Remaining environment-only warnings: the restricted runner cannot write Godot's user-level logs/editor settings or read the Windows root certificate store. No project parser or runtime failure was introduced.
