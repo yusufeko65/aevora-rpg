@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="NpcIdentity" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/npc/npc_identity.gd" id="1_identity"]
+
+[resource]
+script = ExtResource("1_identity")
+stable_id = "npc.prototype.river_warden"
+display_name = "River Warden"
+greeting = "The river is calm today. Keep to the bank—the current is stronger than it looks."
+profession_tag = "warden"

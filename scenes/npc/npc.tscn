@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scenes/npc/npc.gd" id="1_npc"]
+[ext_resource type="Script" path="res://systems/interaction/interaction_target.gd" id="2_target"]
+[ext_resource type="Resource" path="res://data/npc/test_villager.tres" id="3_identity"]
+
+[sub_resource type="CircleShape2D" id="Circle_target"]
+radius = 18.0
+
+[node name="Npc" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_npc")
+identity = ExtResource("3_identity")
+
+[node name="Shadow" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-8, 7, 8, 7, 6, 10, -6, 10)
+color = Color(0.11, 0.14, 0.13, 0.4)
+
+[node name="Body" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-7, -12, 7, -12, 9, 6, 0, 11, -9, 6)
+color = Color(0.55, 0.31, 0.2, 1)
+
+[node name="Head" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-5, -19, 5, -19, 7, -12, 0, -8, -7, -12)
+color = Color(0.76, 0.58, 0.39, 1)
+
+[node name="InteractionTarget" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("2_target")
+focus_radius = 20.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionTarget"]
+shape = SubResource("Circle_target")
