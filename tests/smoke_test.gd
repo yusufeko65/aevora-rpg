@@ -51,6 +51,8 @@ func _run() -> void:
 	sign_target.enabled = false
 	await process_frame
 	_assert(hud.get_active_message_source() == null, "Message closes safely when its source becomes non-interactable")
+	player._update_focused_target()
+	await process_frame
 
 	var temporary_source := InteractionTarget.new()
 	temporary_source.global_position = player.global_position

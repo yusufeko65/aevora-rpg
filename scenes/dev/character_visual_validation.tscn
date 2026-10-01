@@ -1,0 +1,104 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scenes/dev/character_visual_validation.gd" id="1_scene"]
+[ext_resource type="PackedScene" path="res://systems/character_visual/character_visual.tscn" id="2_visual"]
+[ext_resource type="Script" path="res://scenes/dev/character_validation_overlay.gd" id="3_overlay"]
+
+[sub_resource type="StyleBoxFlat" id="Style_debug"]
+bg_color = Color(0.035, 0.047, 0.045, 0.9)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.47, 0.72, 0.59, 0.8)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="CharacterVisualValidation" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_scene")
+
+[node name="LightBackground" type="ColorRect" parent="."]
+offset_right = 320.0
+offset_bottom = 360.0
+color = Color(0.780392, 0.760784, 0.545098, 1)
+mouse_filter = 2
+
+[node name="DarkBackground" type="ColorRect" parent="."]
+offset_left = 320.0
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.14902, 0.227451, 0.211765, 1)
+mouse_filter = 2
+
+[node name="GroundLight" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 190, 320, 190, 320, 360, 0, 360)
+color = Color(0.647059, 0.611765, 0.380392, 0.45)
+
+[node name="GroundDark" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(320, 190, 640, 190, 640, 360, 320, 360)
+color = Color(0.0901961, 0.145098, 0.137255, 0.5)
+
+[node name="CharacterRoot" type="Node2D" parent="."]
+position = Vector2(450, 225)
+
+[node name="CharacterVisual" parent="CharacterRoot" instance=ExtResource("2_visual")]
+scale = Vector2(4, 4)
+
+[node name="ValidationOverlay" type="Node2D" parent="CharacterRoot"]
+scale = Vector2(4, 4)
+script = ExtResource("3_overlay")
+
+[node name="Preview64" type="Node2D" parent="."]
+position = Vector2(92, 316)
+
+[node name="CharacterVisual" parent="Preview64" instance=ExtResource("2_visual")]
+
+[node name="PreviewLabel" type="Label" parent="Preview64"]
+offset_left = -44.0
+offset_top = 17.0
+offset_right = 45.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0.105882, 0.137255, 0.117647, 1)
+theme_override_font_sizes/font_size = 10
+text = "64 px canvas (1×)"
+horizontal_alignment = 1
+
+[node name="Preview32" type="Node2D" parent="."]
+position = Vector2(551, 316)
+
+[node name="CharacterVisual" parent="Preview32" instance=ExtResource("2_visual")]
+scale = Vector2(0.5, 0.5)
+
+[node name="PreviewLabel" type="Label" parent="Preview32"]
+offset_left = -45.0
+offset_top = 17.0
+offset_right = 46.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0.862745, 0.917647, 0.843137, 1)
+theme_override_font_sizes/font_size = 10
+text = "32 px canvas (0.5×)"
+horizontal_alignment = 1
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="DebugPanel" type="PanelContainer" parent="UI"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 300.0
+offset_bottom = 166.0
+theme_override_styles/panel = SubResource("Style_debug")
+
+[node name="Margin" type="MarginContainer" parent="UI/DebugPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 9
+theme_override_constants/margin_top = 7
+theme_override_constants/margin_right = 9
+theme_override_constants/margin_bottom = 7
+
+[node name="DebugLabel" type="Label" parent="UI/DebugPanel/Margin"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.870588, 0.937255, 0.858824, 1)
+theme_override_font_sizes/font_size = 10

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "visual_id": "prototype_validation_001",
+  "status": "prototype_validation",
+  "canvas": { "width": 64, "height": 64 },
+  "anchor": { "x": 32, "y": 48 },
+  "directions": ["down", "up", "left", "right"],
+  "layers": {
+    "body": { "channel": "body", "stack": "body", "visible_on_character": true },
+    "hair": { "channel": "hair", "stack": "body", "visible_on_character": true },
+    "outfit": { "channel": "torso_outfit", "stack": "body", "visible_on_character": true },
+    "equipment_test": {
+      "channel": "off_hand",
+      "visible_on_character": true,
+      "direction_stack": { "down": "front", "up": "back", "left": "front", "right": "front" }
+    }
+  },
+  "animations": {
+    "idle": {
+      "frame_count": 4,
+      "durations_ms": [400, 450, 400, 500],
+      "loop": true,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_idle.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_idle.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_idle.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_idle.png"
+      }
+    },
+    "walk": {
+      "frame_count": 6,
+      "durations_ms": [120, 100, 100, 120, 100, 100],
+      "loop": true,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_walk.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_walk.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_walk.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_walk.png"
+      }
+    },
+    "run": {
+      "frame_count": 8,
+      "durations_ms": [80, 70, 70, 90, 80, 70, 70, 90],
+      "loop": true,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_run.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_run.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_run.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_run.png"
+      }
+    },
+    "attack": {
+      "frame_count": 5,
+      "durations_ms": [160, 80, 140, 90, 180],
+      "loop": false,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_attack.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_attack.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_attack.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_attack.png"
+      }
+    },
+    "hurt": {
+      "frame_count": 3,
+      "durations_ms": [90, 160, 220],
+      "loop": false,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_hurt.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_hurt.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_hurt.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_hurt.png"
+      }
+    },
+    "dead": {
+      "frame_count": 6,
+      "durations_ms": [120, 100, 100, 120, 160, 400],
+      "loop": false,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_dead.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_dead.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_dead.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_dead.png"
+      }
+    },
+    "tool": {
+      "frame_count": 7,
+      "durations_ms": [140, 100, 90, 160, 100, 120, 180],
+      "loop": false,
+      "direction_rows": { "up": 0, "right": 1, "down": 2, "left": 3 },
+      "layer_files": {
+        "body": "res://art/prototype/dev_004/characters/prototype_validation_001_body_tool.png",
+        "hair": "res://art/prototype/dev_004/characters/prototype_validation_001_hair_tool.png",
+        "outfit": "res://art/prototype/dev_004/characters/prototype_validation_001_outfit_tool.png",
+        "equipment_test": "res://art/prototype/dev_004/equipment/prototype_validation_001_equipment_test_tool.png"
+      }
+    }
+  }
+}
