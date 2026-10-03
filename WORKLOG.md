@@ -1,6 +1,33 @@
-# DEV-001 Work Log
+# AEVORA Work Log
 
-## Baseline inventory
+## DEV-R001 restart inventory (2026-10-03)
+
+DEV-001..004 runtime outputs are superseded by DEV-R001. The entries below remain historical evidence, not current runtime specifications.
+
+- Before reset: `main` at `c1f65b9`, with only the user-supplied DEV-R001 handoff untracked. No unrelated user changes were found.
+- Inventoried 122 tracked old runtime/source/import files under scenes, systems, data, tests and art/prototype. Exact paths and preservation decisions: `docs/reports/dev-r001-reset-inventory.md`.
+- Preserve Git history, historical handoffs/screenshots, WORKLOG history, add-ons/MCP integrations, icon and valid project settings. Remove/replace only the inventoried obsolete prototype files, in a normal commit.
+- Read current ART-001 pixel/world specs and ART-002 asset, animation, source audit and license tabs via read-only Drive/Sheets workflows. Human frame is 64×64, boar 32×32, source terrain tiles 16×16, logical world tiles 32×32.
+- Downloaded 33 original vendor files (30 PNGs, 3 TMX) as a deliberately small development subset. Provenance and license limitations are recorded in `art/vendor/craftpix/PROVENANCE.md`; no source edits or remote publication.
+- Audit found that Idle Up is **12 timeline steps but only four occupied PNG cells**. TMX explicitly uses columns `[0,0,0,0,0,1,2,2,2,2,2,3]`. Preserve this mapping rather than indexing empty cells or changing the PNG.
+- Measured unarmed planted soles at Y=43; provisional anchor is **(32,44)**, independent of the DEV-004 dummy anchor. Run airborne frames end at Y=40–43; that motion is retained without per-frame recentering.
+
+## DEV-R001 delivered baseline
+
+- Replaced the obsolete runtime with native Craftpix player Idle 12 / Walk 6 / Run 8 and four explicit source directions. Exact 150 ms timing, repeated Up-idle TMX columns, stable (32,44) ground anchor, and normalized diagonal movement. Walk/run speeds are exposed at 48/112 px/s.
+- Fixed 10×6 player feet rectangle at (0,-1), independent of visual canvas. Tree64/Tree128 retain original variable-size PNGs and small 12×8 / 18×10 trunk footprints. Boar retains 32×32 frames and its different direction order.
+- Built a small native 16 px tile ground/80×176 road patch with original tiles, retaining the 32 px logical world unit and 640×360 / 2× integer display.
+- Added source-faithful Sword Idle/Walk/Run layer composition and shadow A/B comparison; every timeline step/direction reconstructs the original full source pixels within 1/255 rounding tolerance. Shadow strategy remains Review. Attack/Hurt/Death are lower-priority deferred; Tool is missing source.
+- F1 shows timing/state/source row/column/position/FPS; F2 shows canvas, ground/root and actual physics footprints; F3 compares unarmed shadow modes; Tab toggles sword; B switches stationary boar preview. No gameplay systems beyond movement were added.
+- Safely removed 118 old tracked files (including 38 PNGs) and replaced four inventoried runtime files. They remain recoverable in Git history. Historical handoffs/screenshots and MCP add-ons remain intact.
+- Final checks: source audit PASS; normal-access Godot editor opens cleanly; source/movement/collision/scene suite PASS with 3,543 checks; seven 640×360 gameplay/inspection captures reviewed; git whitespace check PASS. Initial restricted-runner user-log/settings/certificate warnings do not occur during normal-access verification.
+- Exact source names, mapping, bbox measurements, preservation/addition/deletion inventory, deferred items, license status and screenshot paths: `docs/reports/dev-r001-baseline-v2.md`.
+- License remains Pending; use is development/testing only, no public GitHub push or final commercial clearance. ART sheets were not modified. Stop after this baseline for visual review and the next explicit handoff.
+- Commit preflight preserves the supplied handoff's intentional Markdown hard break. A vendor-TMX-only `.gitattributes` exception prevents Git newline normalization; verify staged vendor blobs match the original bytes. Authored changes pass the scoped staged whitespace check.
+
+## Historical DEV-001..004 records
+
+### DEV-001 Baseline inventory
 
 - Project path: `D:\Project\Game RPG\Aevora\aevora`
 - Godot: 4.7.2 stable

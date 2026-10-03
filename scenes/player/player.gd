@@ -1,92 +1,28 @@
-class_name PlayerController
+class_name PlayerV2
 extends CharacterBody2D
 
-signal focused_target_changed(target: InteractionTarget)
-signal interaction_completed(source: InteractionTarget, message: String)
+## Provisional ART-001 review values, decoupled from source animation timing.
+@export var walk_speed := 48.0
+@export var run_speed := 112.0
+@onready var visual: SourceSprite = $VisualRoot/SourceSprite
+var input_enabled := true
 
-@export var move_speed := 112.0
-@export var interaction_enter_radius := 44.0
-@export var interaction_exit_radius := 56.0
-
-@onready var interaction_probe: Area2D = $InteractionProbe
-@onready var visual: Sprite2D = $Visual
-
-var facing := Vector2.DOWN
-var focused_target: InteractionTarget
-var _walk_time := 0.0
-
-const FRAME_START := Vector2(276.0, 10.0)
-const FRAME_WIDTH := 224.0
-const FRAME_HEIGHT := 260.0
-const WALK_FPS := 8.0
-
-
-func _physics_process(delta: float) -> void:
-	var input_vector := Input.get_vector("move_left", "move_right", "move_up", "move_down")
-	if input_vector.length_squared() > 0.0:
-		facing = input_vector.normalized()
-		_walk_time += delta
-	else:
-		_walk_time = 0.0
-	velocity = input_vector.normalized() * move_speed
+func _physics_process(_delta: float) -> void:
+	if not input_enabled:
+		velocity = Vector2.ZERO
+		return
+	var axis := Input.get_vector("move_left", "move_right", "move_up", "move_down")
+	var running := Input.is_action_pressed("run")
+	velocity = axis * (run_speed if running else walk_speed)
 	move_and_slide()
-	_update_visual(input_vector)
-	_update_focused_target()
+	var next_direction := facing_for(axis, visual.direction)
+	var next_state := "idle" if axis.is_zero_approx() else ("run" if running else "walk")
+	visual.set_pose(next_state, next_direction)
 
-
-func _unhandled_input(event: InputEvent) -> void:
-	if event.is_action_pressed("interact"):
-		_interact()
-
-
-func get_interaction_prompt() -> String:
-	if is_instance_valid(focused_target):
-		return focused_target.get_interaction_prompt()
-	return ""
-
-
-func _update_focused_target() -> void:
-	var nearest: InteractionTarget
-	var nearest_distance := INF
-	for area in interaction_probe.get_overlapping_areas():
-		if area is not InteractionTarget:
-			continue
-		var candidate := area as InteractionTarget
-		if not candidate.can_interact(self):
-			continue
-		var distance := global_position.distance_to(candidate.global_position)
-		if distance <= interaction_enter_radius and distance < nearest_distance:
-			nearest = candidate
-			nearest_distance = distance
-	if is_instance_valid(focused_target) and focused_target.can_interact(self):
-		var focused_distance := global_position.distance_to(focused_target.global_position)
-		if focused_distance <= interaction_exit_radius and (nearest == null or focused_distance <= nearest_distance):
-			nearest = focused_target
-	if nearest == focused_target:
-		return
-	if is_instance_valid(focused_target):
-		focused_target.set_focused(false)
-	focused_target = nearest
-	if is_instance_valid(focused_target):
-		focused_target.set_focused(true)
-	focused_target_changed.emit(focused_target)
-
-
-func _interact() -> void:
-	if not is_instance_valid(focused_target):
-		return
-	var response := focused_target.interact(self)
-	if not response.is_empty():
-		interaction_completed.emit(focused_target, response)
-
-
-func _update_visual(input_vector: Vector2) -> void:
-	var row := 0
-	if absf(facing.x) > absf(facing.y):
-		row = 1 if facing.x < 0.0 else 2
-	elif facing.y < 0.0:
-		row = 3
-	var frame := 0
-	if input_vector.length_squared() > 0.0:
-		frame = int(_walk_time * WALK_FPS) % 4
-	visual.region_rect = Rect2(FRAME_START + Vector2(frame * FRAME_WIDTH, row * FRAME_HEIGHT), Vector2(FRAME_WIDTH, FRAME_HEIGHT))
+## Horizontal wins exact diagonal ties; no mirroring or last-key race.
+static func facing_for(axis: Vector2, previous: String) -> String:
+	if axis.is_zero_approx():
+		return previous
+	if absf(axis.x) >= absf(axis.y):
+		return "right" if axis.x > 0 else "left"
+	return "down" if axis.y > 0 else "up"
