@@ -54,7 +54,7 @@ func run_tests() -> void:
 		root.add_child(sprite)
 		sprite.set_process(false)
 		var expected := {"idle": 12, "walk": 6, "run": 8} if kind == "human" else {"idle": 4, "walk": 6}
-		for state: String in sprite.mapping.states:
+		for state: String in expected:
 			check(sprite.mapping.states[state].frame_count == expected[state], "Source frame count: " + state)
 			var pose: Dictionary = sprite.mapping.states[state]
 			var tmx_layers: Array = [pose.unarmed_full, pose.unarmed_body, pose.sword_full] + pose.sword_layers if kind == "human" else [pose.full]
@@ -90,7 +90,7 @@ func run_tests() -> void:
 	var player := world.get_node("Actors/Player") as PlayerV2
 	player.input_enabled = false
 	check(world.get_node("Ground16").tile_set.tile_size == Vector2i(16, 16), "16px source terrain, not 32px slicing")
-	check(world.get_node("RoadPatch16").get_used_cells().size() == 55, "Small native 5x11 road patch")
+	check(world.get_node("HomeTerrain/Road_30").cells.size() == 143, "Native TMX road replaces isolated DEV-R001 strip")
 	check(world.get_node("Actors/Tree64/Sprite2D").texture.get_size() == Vector2(64, 64), "Native Tree64")
 	check(world.get_node("Actors/Tree128/Sprite2D").texture.get_size() == Vector2(128, 128), "Native Tree128")
 	check(player.get_node("CollisionShape2D").shape.size == Vector2(10, 6), "Small fixed foot collider")
@@ -102,8 +102,8 @@ func run_tests() -> void:
 		main.get_node("DebugOverlay")._unhandled_key_input(event)
 		check(player.position == original_position, "Debug/source toggles leave world root untouched")
 	check(main.get_node("DebugOverlay").debug_visible and player.visual.guides and player.visual.separate_shadow and player.visual.sword, "Debug, guides, shadow and sword toggles")
-	check(world.get_node("Actors/BoarPreview").preview_mode == "walk", "Boar preview state toggle")
-	for state: String in player.visual.mapping.states:
+	check(not "preview_mode" in world.get_node("Actors/BoarPreview"), "Boar preview toggle removed")
+	for state: String in ["idle", "walk", "run"]:
 		for direction: String in player.visual.mapping.direction_rows:
 			player.visual.set_pose(state, direction)
 			player.visual.sword = not player.visual.sword
@@ -138,18 +138,18 @@ func run_tests() -> void:
 	Input.action_release("run")
 	check(absf(player.position.distance_to(Vector2(700, 400)) - 56) < 2, "Normalized diagonal run distance")
 	check(player.visual.direction == "right", "Stable diagonal facing in actual physics")
-	player.position = Vector2(400, 318)
+	player.position = Vector2(336, 398)
 	Input.action_press("move_up")
 	for i in range(100):
 		await physics_frame
 	Input.action_release("move_up")
-	check(player.position.y >= 284 and player.position.y < 290, "Tree64 trunk blocks, not the whole canopy")
-	player.position = Vector2(435, 318)
+	check(player.position.y >= 364 and player.position.y < 370, "Tree64 trunk blocks, not the whole canopy")
+	player.position = Vector2(314, 398)
 	Input.action_press("move_up")
 	for i in range(100):
 		await physics_frame
 	Input.action_release("move_up")
-	check(player.position.y < 250, "Canopy margin remains walkable")
+	check(player.position.y < 330, "Canopy margin remains walkable")
 	main.free()
 	if failures == 0:
 		print("DEV-R001 PASS: %d checks; geometry, TMX timelines, all 4 directions, pixel layer reconstruction, timing, root, movement, collision and scene smoke." % checks)

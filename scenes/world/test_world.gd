@@ -1,28 +1,23 @@
 extends Node2D
 
 const SOURCES := preload("res://data/source_mapping/craftpix.json")
-const GROUND := preload("res://art/vendor/craftpix/tile/path_and_road/Ground_grass.png")
-const ROAD := preload("res://art/vendor/craftpix/tile/path_and_road/Road1_grass.png")
+const HOME_SOURCE := preload("res://scenes/world/home_source.gd")
+const HOME_TILES := preload("res://scenes/world/home_tiles.gd")
+var home_mapping: Dictionary
 
 func _ready() -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	home_mapping = HOME_SOURCE.read_source(SOURCES.data.world.home.source_tmx)
+	var base_grass := HOME_SOURCE.resolve(int(SOURCES.data.world.home.base_grass_gid), home_mapping.tilesets)
 	var tiles := TileSet.new()
 	var source_size: int = SOURCES.data.world.source_tile_size
 	tiles.tile_size = Vector2i.ONE * source_size
 	var grass := TileSetAtlasSource.new()
-	grass.texture = GROUND
+	grass.texture = load(base_grass.file)
 	grass.texture_region_size = Vector2i.ONE * source_size
-	var grass_tile := Vector2i(SOURCES.data.world.ground_tile[0], SOURCES.data.world.ground_tile[1])
+	var grass_tile: Vector2i = base_grass.region.position / source_size
 	grass.create_tile(grass_tile)
 	tiles.add_source(grass, 0)
-	var road := TileSetAtlasSource.new()
-	road.texture = ROAD
-	road.texture_region_size = Vector2i.ONE * source_size
-	var road_origin := Vector2i(SOURCES.data.world.road_patch.atlas_origin[0], SOURCES.data.world.road_patch.atlas_origin[1])
-	for y in range(5):
-		for x in range(5):
-			road.create_tile(road_origin + Vector2i(x, y))
-	tiles.add_source(road, 1)
 	var ground_layer := TileMapLayer.new()
 	ground_layer.name = "Ground16"
 	ground_layer.tile_set = tiles
@@ -31,18 +26,63 @@ func _ready() -> void:
 	for y in range(40):
 		for x in range(60):
 			ground_layer.set_cell(Vector2i(x, y), 0, grass_tile)
-	var road_layer := TileMapLayer.new()
-	road_layer.name = "RoadPatch16"
-	road_layer.tile_set = tiles
-	add_child(road_layer)
-	move_child(road_layer, 1)
-	# Native 80x176 road: extend the audited center row; preserve original end caps.
-	var source_rows: Array = SOURCES.data.world.road_patch.source_rows
-	for y in range(source_rows.size()):
-		for x in range(5):
-			road_layer.set_cell(Vector2i(28 + x, 16 + y), 1, road_origin + Vector2i(x, int(source_rows[y])))
+	_build_home()
 	var footprints := Node2D.new()
 	footprints.name = "FootprintGuides"
 	footprints.set_script(load("res://scenes/dev/footprint_guides.gd"))
 	footprints.z_index = 10
 	add_child(footprints)
+
+func _build_home() -> void:
+	var spec: Dictionary = SOURCES.data.world.home
+	var terrain_ids := PackedInt32Array(spec.terrain_layer_ids)
+	var house_ids := PackedInt32Array(spec.house_layer_ids)
+	var gate_gids := PackedInt32Array(spec.open_gate_gids)
+	var offset := Vector2(spec.offset[0], spec.offset[1])
+	var terrain := Node2D.new()
+	terrain.name = "HomeTerrain"
+	add_child(terrain)
+	move_child(terrain, 1)
+	var house := StaticBody2D.new()
+	house.name = "House"
+	house.collision_layer = 3 # Player layer 1, ambient environment mask 2.
+	var house_root := Vector2(spec.house_source_root[0], spec.house_source_root[1]) * 16
+	house.position = offset + house_root
+	get_node("Actors").add_child(house)
+	_add_rectangle(house, Vector2(128, 40), Vector2(0, -20))
+	for layer: Dictionary in home_mapping.layers:
+		if terrain_ids.has(int(layer.id)):
+			var visual := _tile_visual(layer.cells, offset)
+			visual.name = str(layer.name) + "_" + str(layer.id)
+			terrain.add_child(visual)
+		elif house_ids.has(int(layer.id)):
+			var visual := _tile_visual(layer.cells, -house_root)
+			visual.name = str(layer.name)
+			house.add_child(visual)
+		elif layer.id == int(spec.fence_layer_id):
+			# Individual bases can Y-sort along the side rails; leave the source gate open.
+			for cell: Dictionary in layer.cells:
+				var segment := StaticBody2D.new()
+				segment.name = "Fence_%d_%d" % [cell.at.x, cell.at.y]
+				segment.collision_layer = 3
+				segment.position = offset + Vector2(cell.at) * 16 + Vector2(8, 16)
+				get_node("Actors").add_child(segment)
+				segment.add_child(_tile_visual([cell], -Vector2(cell.at) * 16 - Vector2(8, 16)))
+				if not gate_gids.has(int(cell.gid)):
+					var side: bool = cell.at.y > -2 and cell.at.y < 6
+					_add_rectangle(segment, Vector2(6, 16) if side else Vector2(16, 4), Vector2(0, -8) if side else Vector2(0, -2))
+
+func _tile_visual(cells: Array, offset: Vector2) -> Node2D:
+	var visual := HOME_TILES.new()
+	visual.cells = cells
+	visual.tilesets = home_mapping.tilesets
+	visual.source_offset = offset
+	return visual
+
+func _add_rectangle(body: StaticBody2D, size: Vector2, offset: Vector2) -> void:
+	var shape := RectangleShape2D.new()
+	shape.size = size
+	var collider := CollisionShape2D.new()
+	collider.shape = shape
+	collider.position = offset
+	body.add_child(collider)

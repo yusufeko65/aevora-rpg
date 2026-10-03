@@ -13,6 +13,777 @@
       "up": 3
     },
     "states": {
+      "attack": {
+        "frame_count": 8,
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          150
+        ],
+        "loop": false,
+        "sword_full": {
+          "file": "res://art/vendor/craftpix/main_character/male/Sword_attack_without_shadow.png",
+          "source_columns": {
+            "0": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "1": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "2": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "3": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            }
+          }
+        },
+        "sword_full_with_shadow": {
+          "file": "res://art/vendor/craftpix/main_character/male/Sword_attack_with_shadow.png",
+          "source_columns": {
+            "0": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "1": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "2": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "3": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            }
+          }
+        },
+        "shadow": {
+          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
+          "source_columns": {
+            "0": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "1": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "2": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            },
+            "3": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "durations_ms": [
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150,
+                150
+              ]
+            }
+          }
+        },
+        "sword_layers": [
+          {
+            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack2_sword_back.png",
+            "source_columns": {
+              "0": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "1": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "2": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "3": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              }
+            }
+          },
+          {
+            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack3_body.png",
+            "source_columns": {
+              "0": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "1": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "2": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "3": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              }
+            }
+          },
+          {
+            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack4_sword_front.png",
+            "source_columns": {
+              "0": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "1": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "2": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "3": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              }
+            }
+          },
+          {
+            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack5_head.png",
+            "source_columns": {
+              "0": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "1": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "2": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "3": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              }
+            }
+          },
+          {
+            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack6_swing.png",
+            "source_columns": {
+              "0": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "1": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "2": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              },
+              "3": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "durations_ms": [
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150,
+                  150
+                ]
+              }
+            }
+          }
+        ],
+        "sword_layer_order_overrides": {
+          "right": {
+            "0": [
+              1,
+              0,
+              2,
+              3,
+              4
+            ]
+          }
+        }
+      },
       "idle": {
         "frame_count": 12,
         "durations_ms": [
@@ -2601,6 +3372,42 @@
     }
   },
   "world": {
+    "home": {
+      "base_grass_gid": 1014,
+      "source_tmx": "res://art/vendor/craftpix/main_character/home/Exterior.tmx",
+      "offset": [
+        568,
+        256
+      ],
+      "terrain_layer_ids": [
+        31,
+        32,
+        30,
+        22,
+        23,
+        44,
+        27,
+        28,
+        29,
+        41,
+        49
+      ],
+      "house_layer_ids": [
+        50,
+        52,
+        53,
+        51
+      ],
+      "fence_layer_id": 24,
+      "house_source_root": [
+        -5,
+        3
+      ],
+      "open_gate_gids": [
+        788,
+        789
+      ]
+    },
     "logical_tile_size": 32,
     "source_tile_size": 16,
     "ground_tile": [

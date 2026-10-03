@@ -25,6 +25,18 @@ DEV-001..004 runtime outputs are superseded by DEV-R001. The entries below remai
 - License remains Pending; use is development/testing only, no public GitHub push or final commercial clearance. ART sheets were not modified. Stop after this baseline for visual review and the next explicit handoff.
 - Commit preflight preserves the supplied handoff's intentional Markdown hard break. A vendor-TMX-only `.gitattributes` exception prevents Git newline normalization; verify staged vendor blobs match the original bytes. Authored changes pass the scoped staged whitespace check.
 
+## DEV-R001.1 delivered refinement (2026-10-04)
+
+- Refined parent `c737e998ae61a28abffe40949feb0e413ff24fea` without reset. Human Idle/Walk/Run mappings, 64×64 canvas, (32,44) pivot, fixed 10×6 feet, speeds and pixel-safe viewport remain unchanged.
+- Imported 13 original Drive files: seven Sword Attack PNGs and Exterior.tmx plus five Home PNGs. All 30 original baseline PNG / three TMX hashes remain unchanged; total audited source is 42 PNGs / four TMX. License remains Pending, no public push.
+- Native Exterior CSV/GIDs supply a house, yard/fence with traversable gate, main road and grass details, translated by (568,256). Five original trees mix 64/128px sources. Base grass uses measured opaque TMX GID 1014 to match the environment palette without editing art.
+- Added Sword Attack 8×150ms in all four directions, non-loop playback with full final-frame hold and one completion signal. Freeze root/facing, ignore spam/Tab while active, return to current Idle/Walk/Run input. Unarmed attack is no-op; movement-specific Sword Walk/Run Attack remains deferred.
+- The original Right/step-0 full attack sheet exposes 31 weapon pixels above the body despite the conceptual back-layer order. One source-pixel-derived layer-order override reproduces it; all 32 attack composites, including existing matching source shadow, match the full source within 1/255 blending tolerance. Pivot and vendor pixels are untouched.
+- Removed B Boar toggle and stationary timed direction cycling. Boar now waits 1.5–4s, travels at 24 px/s for 1–3s toward an inset target, and derives facing from observed velocity. Bounds Rect2(580,392,144,80), fixed 16×8 feet; environment-only mask, no player combat/collision, navigation or full AI.
+- Clean legend includes WASD Move / Direction, Shift Run, Tab Equip / Unequip Sword, LMB / J Attack and F1/F2/F3. F1 adds attack/ambient state, F2 shows all actual footprints, F3 source shadow comparison remains.
+- Final verification: source audit PASS; DEV-R001 regression 3,617 checks PASS; DEV-R001.1 14,402 checks / zero failures PASS, including accelerated 120s ambient physics-tick simulation and actual house/fence/gate/roof traversal. Runtime smoke clean; twelve 640×360 native captures visually reviewed. Historical captures preserved.
+- Complete mapping/import/file inventory, screenshots, controls, source discrepancy, deferred items and next visual review: `docs/reports/dev-r001-1-visual-playtest-sword-attack.md`. Stop here for review; no combat, inventory or NPC expansion.
+
 ## Historical DEV-001..004 records
 
 ### DEV-001 Baseline inventory

@@ -8,6 +8,26 @@ TMX files are retained as mapping evidence, not loaded as runtime maps. They ref
 
 ## Exact original source files
 
+DEV-R001.1 (2026-10-04) adds the following 13 original files (12 PNGs, 1 TMX), downloaded through the same authenticated Drive workflow. License remains **Pending**, local development/testing only. `Exterior.tmx` is the primary reference; its copy is not imported. The runtime reads only the selected terrain, house/window/roof, and fence layers. Unselected birds/cat/animated-tree references are not runtime dependencies. Door/window and chimney smoke use the exact source static pose, not a new animation system. Runtime source hashes and dimensions are re-audited; no original PNG/TMX was edited.
+
+| DEV-R001.1 addition | Google Drive source |
+| --- | --- |
+| `main_character/home/Exterior.tmx` | [source](https://drive.google.com/file/d/1vjeEtP1HYssJAWwUO3R6ML-a4WhE2juj/view?usp=drivesdk) |
+| `main_character/home/exterior.png` | [source](https://drive.google.com/file/d/1X7Jifl9_hThTUx67vI3vNd-Az57pqLUk/view?usp=drivesdk) |
+| `main_character/home/Doors_windows_animation.png` | [source](https://drive.google.com/file/d/1SHMVhSkwfNLei8-_vbnhZeuPUfh0Z6ai/view?usp=drivesdk) |
+| `main_character/home/house_details.png` | [source](https://drive.google.com/file/d/13N4sGMykKBRzDo2G7nXaZqC0JnAXm57S/view?usp=drivesdk) |
+| `main_character/home/ground_grass_details.png` | [source](https://drive.google.com/file/d/1wwaLX9ZaoFsMCCuY2jn1dlcPCA6h2gvx/view?usp=drivesdk) |
+| `main_character/male/Sword_attack_with_shadow.png` | [source](https://drive.google.com/file/d/1_UfcxW5svjOC5RnA4Qv95cBPttqf9uFN/view?usp=drivesdk) |
+| `main_character/male/Sword_attack2_sword_back.png` | [source](https://drive.google.com/file/d/1Y540o5DOlVr-Eal3hs4PMAgivmlU3sQg/view?usp=drivesdk) |
+| `main_character/male/Sword_attack4_sword_front.png` | [source](https://drive.google.com/file/d/12CanRncTRfeMHG4Chg-NeYwfbyVIzp6v/view?usp=drivesdk) |
+| `main_character/male/Sword_attack6_swing.png` | [source](https://drive.google.com/file/d/1m-Gjf_3P39rjRePpfUXCuD6-q7Jd86Vq/view?usp=drivesdk) |
+| `main_character/male/Sword_attack5_head.png` | [source](https://drive.google.com/file/d/1CX_cofQG8Y5ajEMdSA9NSNNnU5lXlyCQ/view?usp=drivesdk) |
+| `main_character/male/Sword_attack3_body.png` | [source](https://drive.google.com/file/d/17xAwpCHLeCG9vXAzgZIsmRgAGlQzdVp2/view?usp=drivesdk) |
+| `main_character/male/Sword_attack_without_shadow.png` | [source](https://drive.google.com/file/d/1acQi38WtWr_78lECWK6XgSG1glEWrWmg/view?usp=drivesdk) |
+| `main_character/home/Smoke_animation.png` | [source](https://drive.google.com/file/d/1mEhJigTJdku0nFyejcOV1JMkCUlDQ2fd/view?usp=drivesdk) |
+
+### DEV-R001 preserved subset
+
 | Project-relative file | Google Drive source |
 | --- | --- |
 | `main_character/male/Base_boy.tmx` | [source](https://drive.google.com/file/d/1A8Q9gmjfdLdaU9SgN99HO_WG3I0zm76L/view?usp=drivesdk) |

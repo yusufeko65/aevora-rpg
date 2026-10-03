@@ -1,12 +1,21 @@
 extends SceneTree
 
 const BASE := "res://art/vendor/craftpix/"
+const HOME := preload("res://scenes/world/home_source.gd")
 
 func _initialize() -> void:
 	var report := {"source_tmx": {}, "images": {}}
 	for relative in ["main_character/male/Base_boy.tmx", "fauna/hunt_animal/Animals.tmx", "tile/path_and_road/Roads.tmx"]:
 		report.source_tmx[relative] = read_tmx(BASE + relative)
-	for folder in ["main_character/male", "fauna/hunt_animal", "flora/tree", "tile/path_and_road"]:
+	var home_path := "main_character/home/Exterior.tmx"
+	var home := HOME.read_source(BASE + home_path)
+	var home_info := {"sha256": FileAccess.get_sha256(BASE + home_path), "tile_size": [16, 16], "tilesets": [], "layers": []}
+	for tileset: Dictionary in home.tilesets:
+		home_info.tilesets.append({"firstgid": tileset.firstgid, "columns": tileset.columns, "source": str(tileset.file).get_file(), "size": [tileset.size.x, tileset.size.y]})
+	for layer: Dictionary in home.layers:
+		home_info.layers.append({"id": layer.id, "name": layer.name, "occupied_cells": layer.cells.size()})
+	report.source_tmx[home_path] = home_info
+	for folder in ["main_character/male", "main_character/home", "fauna/hunt_animal", "flora/tree", "tile/path_and_road"]:
 		for filename in DirAccess.get_files_at(BASE + folder):
 			if not filename.ends_with(".png"):
 				continue
@@ -15,8 +24,8 @@ func _initialize() -> void:
 			assert(img.load_png_from_buffer(FileAccess.get_file_as_bytes(path)) == OK)
 			assert(img != null, path)
 			var info := {"size": [img.get_width(), img.get_height()], "sha256": FileAccess.get_sha256(path)}
-			var cell := 64 if folder.begins_with("main_character") else 32
-			if folder.begins_with("main_character") or filename.begins_with("Boar_"):
+			var cell := 64 if folder == "main_character/male" else 32
+			if folder == "main_character/male" or filename.begins_with("Boar_"):
 				info.frames = []
 				for row in range(img.get_height() / cell):
 					for column in range(img.get_width() / cell):

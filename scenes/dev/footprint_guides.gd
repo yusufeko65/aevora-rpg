@@ -9,10 +9,11 @@ func _draw() -> void:
 	if not player.visual.guides:
 		return
 	# Draw above terrain using the actual physics shapes, not canopy/frame bounds.
-	for body: Node2D in [player, world.get_node("Actors/Tree64"), world.get_node("Actors/Tree128")]:
-		var collider: CollisionShape2D = body.get_node("CollisionShape2D" if body == player else "Trunk")
+	for collider: CollisionShape2D in world.get_node("Actors").find_children("*", "CollisionShape2D", true, false):
+		if not collider.shape is RectangleShape2D:
+			continue
 		var size: Vector2 = (collider.shape as RectangleShape2D).size
-		var footprint := Rect2(body.position + collider.position - size / 2, size)
+		var footprint := Rect2(to_local(collider.global_position) - size / 2, size)
 		draw_rect(footprint, Color(1, 0.3, 0.8, 0.4))
 		draw_rect(footprint, Color(1, 0.3, 0.8), false)
-		draw_circle(body.position, 1, Color.WHITE)
+		draw_circle(to_local(collider.get_parent().global_position), 1, Color.WHITE)

@@ -1,6 +1,8 @@
 class_name SourceSprite
 extends Node2D
 
+signal animation_finished(state: String)
+
 const SOURCE := preload("res://data/source_mapping/craftpix.json")
 
 @export_enum("human", "boar") var source_kind := "human"
@@ -9,6 +11,7 @@ var state := "idle"
 var direction := "down"
 var frame_index := 0
 var elapsed_ms := 0.0
+var finished := false
 var sword := false
 var separate_shadow := false
 var guides := false
@@ -29,13 +32,25 @@ func set_pose(next_state: String, next_direction: String) -> void:
 		direction = next_direction
 		frame_index = 0
 		elapsed_ms = 0.0
+		finished = false
 	queue_redraw()
 
 func advance(delta: float) -> void:
+	if finished:
+		return
 	elapsed_ms += delta * 1000.0
 	while elapsed_ms + 0.00001 >= duration_ms():
 		elapsed_ms -= duration_ms()
-		frame_index = (frame_index + 1) % int(mapping.states[state].frame_count)
+		var pose: Dictionary = mapping.states[state]
+		if frame_index == int(pose.frame_count) - 1 and not pose.get("loop", true):
+			# Every frame, including the last, receives its complete source duration.
+			finished = true
+			elapsed_ms = 0.0
+			queue_redraw()
+			animation_finished.emit(state)
+			# A receiver may switch state synchronously; never advance that new state here.
+			return
+		frame_index = (frame_index + 1) % int(pose.frame_count)
 	queue_redraw()
 
 func duration_ms() -> float:
@@ -54,10 +69,21 @@ func current_layers() -> Array:
 	if source_kind == "boar":
 		return [pose.full]
 	if sword:
-		return [pose.shadow] + pose.sword_layers
+		return [pose.shadow] + current_sword_layers()
 	if separate_shadow:
 		return [pose.shadow, pose.unarmed_body]
 	return [pose.unarmed_full]
+
+func current_sword_layers() -> Array:
+	var pose: Dictionary = mapping.states[state]
+	var layers: Array = pose.sword_layers
+	var overrides: Dictionary = pose.get("sword_layer_order_overrides", {}).get(direction, {})
+	if not overrides.has(str(frame_index)):
+		return layers
+	var ordered: Array = []
+	for index in overrides[str(frame_index)]:
+		ordered.append(layers[int(index)])
+	return ordered
 
 func _draw() -> void:
 	if mapping.is_empty():
