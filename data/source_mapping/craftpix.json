@@ -1,4981 +1,4993 @@
 {
-  "status": "development_source_reference_not_canonical",
-  "human": {
-    "frame_size": 64,
-    "pivot": [
-      32,
-      44
-    ],
-    "direction_rows": {
-      "down": 0,
-      "left": 1,
-      "right": 2,
-      "up": 3
-    },
-    "states": {
-      "walk_attack": {
-        "frame_count": 6,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": false,
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full_with_shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack4_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack5_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack6_swing.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ]
-      },
-      "run_attack": {
-        "frame_count": 8,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": false,
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full_with_shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack4_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack5_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack6_swing.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ]
-      },
-      "attack": {
-        "frame_count": 8,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": false,
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_attack_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full_with_shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_attack_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack4_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack5_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_attack6_swing.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ],
-        "sword_layer_order_overrides": {
-          "right": {
-            "0": [
-              1,
-              0,
-              2,
-              3,
-              4
-            ]
-          }
-        }
-      },
-      "idle": {
-        "frame_count": 12,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": true,
-        "unarmed_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "unarmed_body": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Idle_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Idle2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2,
-                  2,
-                  3
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Idle3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2,
-                  2,
-                  3
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Idle4_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2,
-                  2,
-                  3
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Idle5_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  2,
-                  2,
-                  2,
-                  2,
-                  2,
-                  3
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ]
-      },
-      "walk": {
-        "frame_count": 6,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": true,
-        "unarmed_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "unarmed_body": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk4_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Walk5_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ]
-      },
-      "run": {
-        "frame_count": 8,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": true,
-        "unarmed_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "unarmed_body": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "shadow": {
-          "file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_full": {
-          "file": "res://art/vendor/craftpix/main_character/male/Sword_Run_without_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        },
-        "sword_layers": [
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run2_sword_back.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run3_body.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run5_sword_front.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          },
-          {
-            "file": "res://art/vendor/craftpix/main_character/male/Sword_Run4_head.png",
-            "source_columns": {
-              "0": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "1": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "2": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              },
-              "3": {
-                "columns": [
-                  0,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7
-                ],
-                "durations_ms": [
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150,
-                  150
-                ]
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "boar": {
-    "frame_size": 32,
-    "pivot": [
-      16,
-      28
-    ],
-    "direction_rows": {
-      "down": 0,
-      "up": 1,
-      "left": 2,
-      "right": 3
-    },
-    "states": {
-      "idle": {
-        "frame_count": 4,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": true,
-        "full": {
-          "file": "res://art/vendor/craftpix/fauna/hunt_animal/Boar_Idle_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        }
-      },
-      "walk": {
-        "frame_count": 6,
-        "durations_ms": [
-          150,
-          150,
-          150,
-          150,
-          150,
-          150
-        ],
-        "loop": true,
-        "full": {
-          "file": "res://art/vendor/craftpix/fauna/hunt_animal/Boar_Walk_with_shadow.png",
-          "source_columns": {
-            "0": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "1": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "2": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            },
-            "3": {
-              "columns": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5
-              ],
-              "durations_ms": [
-                150,
-                150,
-                150,
-                150,
-                150,
-                150
-              ]
-            }
-          }
-        }
-      }
-    }
-  },
-  "world": {
-    "home": {
-      "fence_collision_profiles": {
-        "788": {
-          "type": "gate_open",
-          "shapes": []
-        },
-        "789": {
-          "type": "gate_open",
-          "shapes": []
-        },
-        "802": {
-          "type": "top_left_cap",
-          "shapes": [
-            {
-              "size": [
-                7,
-                4
-              ],
-              "offset": [
-                4.5,
-                -2
-              ]
-            }
-          ],
-          "measured_opaque_bounds": [
-            9,
-            0,
-            7,
-            16
-          ]
-        },
-        "803": {
-          "type": "top_rail",
-          "shapes": [
-            {
-              "size": [
-                16,
-                4
-              ],
-              "offset": [
-                0,
-                -2
-              ]
-            }
-          ]
-        },
-        "804": {
-          "type": "top_right_cap",
-          "shapes": [
-            {
-              "size": [
-                8,
-                4
-              ],
-              "offset": [
-                -4,
-                -2
-              ]
-            }
-          ],
-          "measured_opaque_bounds": [
-            0,
-            0,
-            8,
-            16
-          ]
-        },
-        "819": {
-          "type": "left_side",
-          "shapes": [
-            {
-              "size": [
-                6,
-                16
-              ],
-              "offset": [
-                5,
-                -8
-              ]
-            }
-          ]
-        },
-        "821": {
-          "type": "right_side",
-          "shapes": [
-            {
-              "size": [
-                6,
-                16
-              ],
-              "offset": [
-                -4,
-                -8
-              ]
-            }
-          ]
-        },
-        "836": {
-          "type": "bottom_left_corner",
-          "shapes": [
-            {
-              "size": [
-                6,
-                16
-              ],
-              "offset": [
-                5,
-                -8
-              ]
-            },
-            {
-              "size": [
-                7,
-                4
-              ],
-              "offset": [
-                4.5,
-                -2
-              ]
-            }
-          ]
-        },
-        "837": {
-          "type": "bottom_rail",
-          "shapes": [
-            {
-              "size": [
-                16,
-                4
-              ],
-              "offset": [
-                0,
-                -2
-              ]
-            }
-          ]
-        },
-        "838": {
-          "type": "bottom_right_corner",
-          "shapes": [
-            {
-              "size": [
-                6,
-                16
-              ],
-              "offset": [
-                -4,
-                -8
-              ]
-            },
-            {
-              "size": [
-                8,
-                4
-              ],
-              "offset": [
-                -4,
-                -2
-              ]
-            }
-          ]
-        }
-      },
-      "base_grass_gid": 1014,
-      "source_tmx": "res://art/vendor/craftpix/main_character/home/Exterior.tmx",
-      "offset": [
-        568,
-        256
-      ],
-      "terrain_layer_ids": [
-        31,
-        32,
-        30,
-        22,
-        23,
-        44,
-        27,
-        28,
-        29,
-        41,
-        49
-      ],
-      "house_layer_ids": [
-        50,
-        52,
-        53,
-        51
-      ],
-      "fence_layer_id": 24,
-      "house_source_root": [
-        -5,
-        3
-      ],
-      "open_gate_gids": [
-        788,
-        789
-      ]
-    },
-    "logical_tile_size": 32,
-    "source_tile_size": 16,
-    "ground_tile": [
-      2,
-      2
-    ],
-    "road_patch": {
-      "atlas_origin": [
-        0,
-        5
-      ],
-      "size": [
-        5,
-        11
-      ],
-      "source_rows": [0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 4]
-    }
-  }
+	"status": "development_source_reference_not_canonical",
+	"human": {
+		"frame_size": 64.0,
+		"pivot": [
+			32.0,
+			44.0
+		],
+		"direction_rows": {
+			"down": 0.0,
+			"left": 1.0,
+			"right": 2.0,
+			"up": 3.0
+		},
+		"states": {
+			"walk_attack": {
+				"frame_count": 6.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": false,
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full_with_shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack4_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack5_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_Attack6_swing.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				]
+			},
+			"run_attack": {
+				"frame_count": 8.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": false,
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full_with_shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack4_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack5_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_Attack6_swing.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				]
+			},
+			"attack": {
+				"frame_count": 8.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": false,
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_attack_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full_with_shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_attack_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_attack2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_attack3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_attack4_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_attack5_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_attack6_swing.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				],
+				"sword_layer_order_overrides": {
+					"right": {
+						"0": [
+							1.0,
+							0.0,
+							2.0,
+							3.0,
+							4.0
+						]
+					}
+				}
+			},
+			"idle": {
+				"frame_count": 12.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": true,
+				"unarmed_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								1.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"unarmed_body": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								1.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Idle1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								1.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Idle_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								1.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Idle2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									1.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									3.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Idle3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									1.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									3.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Idle4_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									1.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									3.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Idle5_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0,
+									8.0,
+									9.0,
+									10.0,
+									11.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									0.0,
+									1.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									2.0,
+									3.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				]
+			},
+			"walk": {
+				"frame_count": 6.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": true,
+				"unarmed_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"unarmed_body": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Walk1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk4_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Walk5_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				]
+			},
+			"run": {
+				"frame_count": 8.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": true,
+				"unarmed_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"unarmed_body": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"shadow": {
+					"file": "res://art/vendor/craftpix/main_character/male/Unarmed_Run1_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_full": {
+					"file": "res://art/vendor/craftpix/main_character/male/Sword_Run_without_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				},
+				"sword_layers": [
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run2_sword_back.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run3_body.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run5_sword_front.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					},
+					{
+						"file": "res://art/vendor/craftpix/main_character/male/Sword_Run4_head.png",
+						"source_columns": {
+							"0": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"1": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"2": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							},
+							"3": {
+								"columns": [
+									0.0,
+									1.0,
+									2.0,
+									3.0,
+									4.0,
+									5.0,
+									6.0,
+									7.0
+								],
+								"durations_ms": [
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0,
+									150.0
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"boar": {
+		"frame_size": 32.0,
+		"pivot": [
+			16.0,
+			28.0
+		],
+		"direction_rows": {
+			"down": 0.0,
+			"up": 1.0,
+			"left": 2.0,
+			"right": 3.0
+		},
+		"states": {
+			"idle": {
+				"frame_count": 4.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": true,
+				"full": {
+					"file": "res://art/vendor/craftpix/fauna/hunt_animal/Boar_Idle_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				}
+			},
+			"walk": {
+				"frame_count": 6.0,
+				"durations_ms": [
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0,
+					150.0
+				],
+				"loop": true,
+				"full": {
+					"file": "res://art/vendor/craftpix/fauna/hunt_animal/Boar_Walk_with_shadow.png",
+					"source_columns": {
+						"0": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"1": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"2": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						},
+						"3": {
+							"columns": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							],
+							"durations_ms": [
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0,
+								150.0
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"world": {
+		"home": {
+			"fence_collision_profiles": {
+				"788": {
+					"type": "gate_open",
+					"shapes": []
+				},
+				"789": {
+					"type": "gate_open",
+					"shapes": []
+				},
+				"802": {
+					"type": "top_left_cap",
+					"shapes": [
+						{
+							"size": [
+								7.0,
+								4.0
+							],
+							"offset": [
+								4.5,
+								-2.0
+							]
+						}
+					],
+					"measured_opaque_bounds": [
+						9.0,
+						0.0,
+						7.0,
+						16.0
+					]
+				},
+				"803": {
+					"type": "top_rail",
+					"shapes": [
+						{
+							"size": [
+								16.0,
+								4.0
+							],
+							"offset": [
+								0.0,
+								-2.0
+							]
+						}
+					]
+				},
+				"804": {
+					"type": "top_right_cap",
+					"shapes": [
+						{
+							"size": [
+								8.0,
+								4.0
+							],
+							"offset": [
+								-4.0,
+								-2.0
+							]
+						}
+					],
+					"measured_opaque_bounds": [
+						0.0,
+						0.0,
+						8.0,
+						16.0
+					]
+				},
+				"819": {
+					"type": "left_side",
+					"shapes": [
+						{
+							"size": [
+								6.0,
+								16.0
+							],
+							"offset": [
+								5.0,
+								-8.0
+							]
+						}
+					]
+				},
+				"821": {
+					"type": "right_side",
+					"shapes": [
+						{
+							"size": [
+								6.0,
+								16.0
+							],
+							"offset": [
+								-4.0,
+								-8.0
+							]
+						}
+					]
+				},
+				"836": {
+					"type": "bottom_left_corner",
+					"shapes": [
+						{
+							"size": [
+								6.0,
+								16.0
+							],
+							"offset": [
+								5.0,
+								-8.0
+							]
+						},
+						{
+							"size": [
+								7.0,
+								4.0
+							],
+							"offset": [
+								4.5,
+								-2.0
+							]
+						}
+					]
+				},
+				"837": {
+					"type": "bottom_rail",
+					"shapes": [
+						{
+							"size": [
+								16.0,
+								4.0
+							],
+							"offset": [
+								0.0,
+								-2.0
+							]
+						}
+					]
+				},
+				"838": {
+					"type": "bottom_right_corner",
+					"shapes": [
+						{
+							"size": [
+								6.0,
+								16.0
+							],
+							"offset": [
+								-4.0,
+								-8.0
+							]
+						},
+						{
+							"size": [
+								8.0,
+								4.0
+							],
+							"offset": [
+								-4.0,
+								-2.0
+							]
+						}
+					]
+				}
+			},
+			"base_grass_gid": 1014.0,
+			"source_tmx": "res://art/vendor/craftpix/main_character/home/Exterior.tmx",
+			"offset": [
+				568.0,
+				256.0
+			],
+			"terrain_layer_ids": [
+				31.0,
+				32.0,
+				30.0,
+				22.0,
+				23.0,
+				44.0,
+				27.0,
+				28.0,
+				29.0,
+				41.0,
+				49.0
+			],
+			"house_layer_ids": [
+				50.0,
+				52.0,
+				53.0,
+				51.0
+			],
+			"fence_layer_id": 24.0,
+			"house_source_root": [
+				-5.0,
+				3.0
+			],
+			"open_gate_gids": [
+				788.0,
+				789.0
+			]
+		},
+		"logical_tile_size": 32.0,
+		"source_tile_size": 16.0,
+		"ground_tile": [
+			2.0,
+			2.0
+		],
+		"road_patch": {
+			"atlas_origin": [
+				0.0,
+				5.0
+			],
+			"size": [
+				5.0,
+				11.0
+			],
+			"source_rows": [
+				0.0,
+				1.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				3.0,
+				4.0
+			]
+		}
+	}
 }

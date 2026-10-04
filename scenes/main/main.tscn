@@ -1,13 +1,13 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://yo46eyv5a5ki"]
 
 [ext_resource type="PackedScene" path="res://scenes/world/test_world.tscn" id="1"]
-[ext_resource type="Script" path="res://scenes/dev/debug_overlay.gd" id="2"]
+[ext_resource type="Script" uid="uid://patr14y3v2yy" path="res://scenes/dev/debug_overlay.gd" id="2"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=1089155639]
 texture_filter = 1
 
-[node name="TestWorld" parent="." instance=ExtResource("1")]
+[node name="TestWorld" parent="." unique_id=1229782327 instance=ExtResource("1")]
 
-[node name="DebugOverlay" type="CanvasLayer" parent="."]
+[node name="DebugOverlay" type="CanvasLayer" parent="." unique_id=1948279074]
 script = ExtResource("2")
 world_path = NodePath("../TestWorld")
