@@ -1,0 +1,29 @@
+{
+	"bbox": [
+		23,
+		6,
+		18,
+		39
+	],
+	"bottom_delta_from_target_root": 0,
+	"bottommost_opaque_y": 44,
+	"dimensions": [
+		64,
+		64
+	],
+	"margin_bottom": 19,
+	"margin_left": 23,
+	"margin_right": 23,
+	"margin_top": 6,
+	"opaque_pixels": 437,
+	"review_target_pivot": [
+		32,
+		44
+	],
+	"root_review": "Bottom pixel is evidence, not an auto-alignment instruction. Visual feet/root review required.",
+	"semi_alpha_pixels": 0,
+	"source": "res://art/rnd/art_r001/candidates/sprite_studio/master_down.png",
+	"transparent_pixels": 3659,
+	"visible_height": 39,
+	"visible_width": 18
+}

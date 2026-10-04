@@ -1,0 +1,71 @@
+[
+	{
+		"candidate_status": "BLOCKED",
+		"canvas_guides": false,
+		"direction": "down",
+		"elapsed": 0.0,
+		"file": "art-r001-godot-comparison.png",
+		"logical": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"preview_mode": "NATIVE DOWN ONLY",
+		"root_guides": false,
+		"state": "idle",
+		"stretch": [
+			2,
+			2
+		],
+		"window": [
+			1280,
+			720
+		]
+	},
+	{
+		"candidate_status": "BLOCKED",
+		"canvas_guides": true,
+		"direction": "down",
+		"elapsed": 0.0,
+		"file": "art-r001-master.png",
+		"logical": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"preview_mode": "MASTER ONLY",
+		"root_guides": true,
+		"state": "idle",
+		"stretch": [
+			2,
+			2
+		],
+		"window": [
+			1280,
+			720
+		]
+	},
+	{
+		"candidate_status": "BLOCKED",
+		"canvas_guides": true,
+		"direction": "down",
+		"elapsed": 0.3,
+		"file": "art-r001-root-guides.png",
+		"logical": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"preview_mode": "NATIVE DOWN ONLY",
+		"root_guides": true,
+		"state": "walk",
+		"stretch": [
+			2,
+			2
+		],
+		"window": [
+			1280,
+			720
+		]
+	}
+]

@@ -1,0 +1,21 @@
+{
+	"candidate": "ARTCHAR-R001",
+	"commercial_approval": false,
+	"errors": [],
+	"measurement_policy": "read-only; no bbox recentering/rescale; bottom pixel is not a physical root measurement",
+	"missing_outputs": [
+		"res://art/rnd/art_r001/exports/idle.png",
+		"res://art/rnd/art_r001/exports/walk.png"
+	],
+	"pivot": [
+		32.0,
+		44.0
+	],
+	"sheets": {},
+	"status": "BLOCKED",
+	"validator_self_tests": {
+		"checks": 153,
+		"failures": 0,
+		"fixture_policy": "in-memory only; synthetic shapes never candidate exports"
+	}
+}

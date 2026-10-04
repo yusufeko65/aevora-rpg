@@ -1,0 +1,46 @@
+{
+  "status": "BLOCKED",
+  "tool_commit": "9de73a6136a1a045af2e8769349fbadc17dbef69",
+  "mode": "one read-only native --check per authored rig; no repair or rendering",
+  "command": "py -3 .sprite-studio/sprite_rig.py --check .sprite-studio/rigs/art-r001-<direction>-<state>.json",
+  "diagnostics": [
+    {
+      "direction": "left",
+      "state": "idle",
+      "error": "sprite_rig: joint 'neck' is marked visible but sits 7.52px from part 'head'; the anatomy is not actually segmented at that joint",
+      "exit_code": 1
+    },
+    {
+      "direction": "left",
+      "state": "walk",
+      "error": "sprite_rig: parts 'far_arm' and 'torso' overlap 10 visible pixels but are not a declared parent-child joint",
+      "exit_code": 1
+    },
+    {
+      "direction": "right",
+      "state": "idle",
+      "error": "sprite_rig: joint 'neck' is marked visible but sits 6.52px from part 'head'; the anatomy is not actually segmented at that joint",
+      "exit_code": 1
+    },
+    {
+      "direction": "right",
+      "state": "walk",
+      "error": "sprite_rig: joint 'left_hip' is marked visible but sits 2.55px from part 'torso'; the anatomy is not actually segmented at that joint",
+      "exit_code": 1
+    },
+    {
+      "direction": "up",
+      "state": "idle",
+      "error": "sprite_rig: joint 'neck' is marked visible but sits 6.52px from part 'head'; the anatomy is not actually segmented at that joint",
+      "exit_code": 1
+    },
+    {
+      "direction": "up",
+      "state": "walk",
+      "error": "sprite_rig: parts 'far_arm' and 'torso' overlap 20 visible pixels but are not a declared parent-child joint",
+      "exit_code": 1
+    }
+  ],
+  "operator_note": "First diagnostic command placed --check after the rig path and returned usage-only. Corrected invocation above produced the actual anatomy diagnostics; usage failure is not counted as rig failure.",
+  "runtime_promotion": false
+}

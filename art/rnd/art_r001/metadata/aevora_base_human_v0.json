@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "ARTCHAR-R001",
+  "slug": "aevora_base_human_v0",
+  "display_name": "AEVORA Base Human v0",
+  "status": "rnd_candidate",
+  "generation_status": "blocked_incomplete_directions",
+  "commercial_approval": false,
+  "frame_size": [64, 64],
+  "pivot": [32, 44],
+  "pivot_role": "provisional_comparison_target_requires_visual_review",
+  "direction_rows": {"down": 0, "left": 1, "right": 2, "up": 3},
+  "states": {
+    "idle": {"file": "res://art/rnd/art_r001/exports/idle.png", "frames": 4, "duration_ms": 150, "loop": true},
+    "walk": {"file": "res://art/rnd/art_r001/exports/walk.png", "frames": 6, "duration_ms": 150, "loop": true}
+  },
+  "tool": "Sprite Studio",
+  "tool_version": "0.3.3",
+  "tool_commit": "9de73a6136a1a045af2e8769349fbadc17dbef69",
+  "source_workflow": "original_text_brief -> master_review -> anchor -> Idle -> Walk -> fixed_canvas_export",
+  "provider": "Codex / ChatGPT subscription",
+  "model": "ImageGen model identifier not exposed by the provider result",
+  "generation_date": "2026-10-04T08:47:33.590Z",
+  "brief": "res://art/rnd/art_r001/brief/aevora_base_human_v0.md",
+  "provenance": "res://art/rnd/art_r001/metadata/provenance.json",
+  "source_master_paths": ["res://art/rnd/art_r001/candidates/sprite_studio/master_down_ai_original.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_down.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_left_ai_original.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_left.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_right_ai_original.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_right.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_up_ai_original.png", "res://art/rnd/art_r001/candidates/sprite_studio/master_up.png"],
+  "preview_masters": {"down":"res://art/rnd/art_r001/candidates/sprite_studio/master_down.png", "left":"res://art/rnd/art_r001/candidates/sprite_studio/master_left.png", "right":"res://art/rnd/art_r001/candidates/sprite_studio/master_right.png", "up":"res://art/rnd/art_r001/candidates/sprite_studio/master_up.png"},
+  "normalization_notes": "Each initial complete master composition reduced globally to64x64 with nearest sampling, complete raster translated(0,-6), alpha threshold128; down import additionally applied upstream alpha/orphan cleanup. All originals preserved. Directional feet offsets0/+2/+2/+1 kept as evidence. Source animation7FPS; normalized comparison150ms metadata only. No per-frame crop/recenter/rescale."
+}

@@ -1,0 +1,141 @@
+{
+	"directions": {
+		"down": {
+			"bbox": [
+				23,
+				6,
+				18,
+				39
+			],
+			"bottom_delta_from_target_root": 0,
+			"bottommost_opaque_y": 44,
+			"dimensions": [
+				64,
+				64
+			],
+			"margin_bottom": 19,
+			"margin_left": 23,
+			"margin_right": 23,
+			"margin_top": 6,
+			"opaque_centroid": [
+				31.4988558352403,
+				24.1647597254005
+			],
+			"opaque_pixels": 437,
+			"review_target_pivot": [
+				32,
+				44
+			],
+			"root_review": "Bottom pixel is evidence, not an auto-alignment instruction. Directional feet/root review required.",
+			"semi_alpha_pixels": 0,
+			"source": "res://art/rnd/art_r001/candidates/sprite_studio/master_down.png",
+			"transparent_pixels": 3659,
+			"unique_visible_colors": 44,
+			"visible_height": 39,
+			"visible_width": 18
+		},
+		"left": {
+			"bbox": [
+				25,
+				7,
+				15,
+				40
+			],
+			"bottom_delta_from_target_root": 2,
+			"bottommost_opaque_y": 46,
+			"dimensions": [
+				64,
+				64
+			],
+			"margin_bottom": 17,
+			"margin_left": 25,
+			"margin_right": 24,
+			"margin_top": 7,
+			"opaque_centroid": [
+				32.0283505154639,
+				25.7525773195876
+			],
+			"opaque_pixels": 388,
+			"review_target_pivot": [
+				32,
+				44
+			],
+			"root_review": "Bottom pixel is evidence, not an auto-alignment instruction. Directional feet/root review required.",
+			"semi_alpha_pixels": 0,
+			"source": "res://art/rnd/art_r001/candidates/sprite_studio/master_left.png",
+			"transparent_pixels": 3708,
+			"unique_visible_colors": 380,
+			"visible_height": 40,
+			"visible_width": 15
+		},
+		"right": {
+			"bbox": [
+				25,
+				8,
+				14,
+				39
+			],
+			"bottom_delta_from_target_root": 2,
+			"bottommost_opaque_y": 46,
+			"dimensions": [
+				64,
+				64
+			],
+			"margin_bottom": 17,
+			"margin_left": 25,
+			"margin_right": 25,
+			"margin_top": 8,
+			"opaque_centroid": [
+				31.3691460055096,
+				25.2396694214876
+			],
+			"opaque_pixels": 363,
+			"review_target_pivot": [
+				32,
+				44
+			],
+			"root_review": "Bottom pixel is evidence, not an auto-alignment instruction. Directional feet/root review required.",
+			"semi_alpha_pixels": 0,
+			"source": "res://art/rnd/art_r001/candidates/sprite_studio/master_right.png",
+			"transparent_pixels": 3733,
+			"unique_visible_colors": 359,
+			"visible_height": 39,
+			"visible_width": 14
+		},
+		"up": {
+			"bbox": [
+				24,
+				8,
+				16,
+				38
+			],
+			"bottom_delta_from_target_root": 1,
+			"bottommost_opaque_y": 45,
+			"dimensions": [
+				64,
+				64
+			],
+			"margin_bottom": 18,
+			"margin_left": 24,
+			"margin_right": 24,
+			"margin_top": 8,
+			"opaque_centroid": [
+				31.5751789976134,
+				26.2792362768496
+			],
+			"opaque_pixels": 419,
+			"review_target_pivot": [
+				32,
+				44
+			],
+			"root_review": "Bottom pixel is evidence, not an auto-alignment instruction. Directional feet/root review required.",
+			"semi_alpha_pixels": 0,
+			"source": "res://art/rnd/art_r001/candidates/sprite_studio/master_up.png",
+			"transparent_pixels": 3677,
+			"unique_visible_colors": 397,
+			"visible_height": 38,
+			"visible_width": 16
+		}
+	},
+	"failures": 0
+}

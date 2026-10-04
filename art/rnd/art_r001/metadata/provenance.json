@@ -1,0 +1,288 @@
+{
+  "id": "ARTCHAR-R001",
+  "tool": "Sprite Studio",
+  "tool_version": "0.3.3",
+  "tool_commit": "9de73a6136a1a045af2e8769349fbadc17dbef69",
+  "provider": "Codex / ChatGPT subscription",
+  "model": "ImageGen model identifier not exposed by the provider result",
+  "access_confirmation": "User confirmed active ChatGPT image access on 2026-10-04. No paid API fallback authorized.",
+  "exact_character_prompt": "Create one original full-body human adventurer / settlement resident for AEVORA, not a final protagonist. Down-facing neutral master only. 3/4 top-down hybrid camera for square-grid gameplay, dimensional pixel/semi-pixel richness, not diamond isometric. Muted teal practical tunic, warm gray trousers, plain brown boots, short dark chestnut hair. Clear readable head/torso/arms/legs, clean hard pixels, consistent proportions. No weapon, backpack, text, painted ground, existing or copyrighted-character resemblance. Real transparent background, hard alpha, no blur or antialiasing. Fixed complete 64x64 canvas; provisional ground/root target (32,44), feet plausibly at that ground line, transparent movement margin. Do not crop, trim, bbox-center or rescale individual frames. Generate one master only for review at 1x and nearest 2x; no animations yet. Use only this original text brief, no Craftpix or other vendor image/style references.",
+  "requested_generation_settings": {
+    "width": 64,
+    "height": 64,
+    "frames": 1,
+    "fps": 7,
+    "quality": "high",
+    "imageProviderId": "imagegen",
+    "frameMode": "fixed",
+    "minFrames": 1,
+    "maxFrames": 1,
+    "allowInterpolation": false
+  },
+  "frame_policy": "Fixed 64x64 canvases; no per-frame bbox normalization, auto-center, trimming or rescaling.",
+  "animation_mode": "Native Sprite Studio v3 rig-only; no AI polish/redraw; source 7 FPS preserved, normalized timing declared separately.",
+  "manual_edits": [],
+  "normalization_steps": [
+    "Before animation: preserve untouched generated 1254x1254 PNG; reduce its complete composition once to 64x64 using nearest sampling, no bbox crop/recenter.",
+    "Before animation: translate complete single master raster (0,-6) onto fixed transparent 64x64 canvas; original source remains unchanged; retain this same canvas/root for all future animation frames.",
+    "Binary alpha threshold 128 by provider preparation; Sprite Studio import alpha/orphan cleanup subsequently changed opaque count 440 -> 437 without changing bbox or canvas.",
+    "Pinned tool recovered raw master instead of technical output. Corrected only workspace last-generation.json files/name to index the already-authored 64x64 master; no app source changes.",
+    "Native animation retains complete 64x64 source canvases at integer7FPS. AEVORA full-cell grid export copies unchanged pixels; normalized comparison metadata declares150ms/frame separately. No per-frame crop/recenter/rescale."
+  ],
+  "master_attempts": [
+    {
+      "request_id": "a247cfef-4f9c-4c7d-837e-a4b385a83c8d",
+      "started": "2026-10-04T08:44:18.370Z",
+      "completed": "2026-10-04T08:47:33.590Z",
+      "status": "completed",
+      "submitted_prompt": "Create one original full-body human adventurer / settlement resident for AEVORA, not a final protagonist. Down-facing neutral master only. 3/4 top-down hybrid camera for square-grid gameplay, dimensional pixel/semi-pixel richness, not diamond isometric. Muted teal practical tunic, warm gray trousers, plain brown boots, short dark chestnut hair. Clear readable head/torso/arms/legs, clean hard pixels, consistent proportions. No weapon, backpack, text, painted ground, existing or copyrighted-character resemblance. Real transparent background, hard alpha, no blur or antialiasing. Fixed complete 64x64 canvas; provisional ground/root target (32,44), feet plausibly at that ground line, transparent movement margin. Do not crop, trim, bbox-center or rescale individual frames. Generate one master only for review at 1x and nearest 2x; no animations yet. Use only this original text brief, no Craftpix or other vendor image/style references.\nOperate only in this Sprite Studio workspace. Do not access or modify the AEVORA repository, do not use a paid API or fallback provider. If ChatGPT image generation is unavailable in this provider process, stop and report that limitation; do not draw a dummy or fake a generated master. Preserve original generated output and report actual model/tool/settings. Do not animate before master review.",
+      "provider_execution": "Sprite Studio MCP generate -> Codex/ChatGPT -> builtin image_gen__imagegen, transparent_background=true; no API fallback",
+      "original": {
+        "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_down_ai_original.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "sha256": "F2EC488AF99DB8DECFDB27ADF204B4B6931155E225F89AED800F8E3E243CCEBA"
+      },
+      "technical_master": {
+        "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_down.png",
+        "size": [
+          64,
+          64
+        ],
+        "sha256": "B2697D8B9D3DBA53628320B2D72CC7B2F6D0F94E30B6091C40305AAD3085CF74"
+      }
+    },
+    {
+      "phase": "direction-masters",
+      "request_id": "19f11881-c6c4-430b-ac45-b57cc2d226af",
+      "started": "2026-10-04T09:17:33.037Z",
+      "completed": "2026-10-04T09:22:18.378Z",
+      "request": {
+        "prompt": "Create three separate neutral standing direction masters of the SAME original HUMAN CHARACTER AEVORA Base Human v0: LEFT (west), RIGHT (east), and UP (north/back). Each is a single complete full-body character portrait, not a contact sheet. Use the two attached original AEVORA references only: untouched generated character design and approved 64x64 down master. Maintain chestnut short hair, muted teal tunic/collar/brown belt, warm gray trousers and plain brown boots, same human proportions and approximately 18x39px-class silhouette. Maintain the same elevated 3/4 TOP-DOWN hybrid camera, square-grid perspective, visible head-top and foreshortening, not flat side-view or diamond isometric. Preserve this original identity without adding accessories. UP must visibly show the back, no face; LEFT and RIGHT must visibly face their semantic direction, not a front sprite labeled differently. Transparent background, hard pixels, no text. Preserve untouched AI outputs separately per direction under .sprite-studio/imagegen-sources/aevora-base-human-v0-<direction>/master.png, plus exact 64x64 technical masters assets/characters/aevora-base-human-v0-<direction>-master.png. Follow the SAME initial whole-composition transform as down: nearest complete raster reduction to 64x64 then global translation (0,-6) and binary-alpha threshold128. No bbox cropping/recentering, no body-size fitting or independent canvas trimming; if a direction fails margin/root/proportion review, report it instead of silently fixing by bbox. Root comparison target remains (32,44); review visible feet deviation explicitly. Preserve original sources and list actual settings/model availability, with one attempt per direction. Write an explicit last-generation manifest listing the three TECHNICAL 64x64 files so the upstream recovery path does not index the large raw originals instead. Do not replace the approved down source. Produce only these three neutral direction masters, nothing else. Stay inside this isolated Sprite Studio workspace, no AEVORA writes and no paid API fallback.",
+        "command": "character",
+        "imageProviderId": "imagegen",
+        "generation": {
+          "width": 64,
+          "height": 64,
+          "frames": 1,
+          "fps": 7,
+          "quality": "high",
+          "frameMode": "fixed",
+          "minFrames": 1,
+          "maxFrames": 1,
+          "allowInterpolation": false
+        }
+      },
+      "status": "completed_with_root_palette_review_required",
+      "attempt_count": 3,
+      "reference_policy": "Only original AEVORA down raw output and technical master; no Craftpix/style references.",
+      "transform": "Same complete-composition nearest64 then global(0,-6), alpha128; no bbox fit/crop/recenter. No per-animation-frame changes.",
+      "provider_execution": "Builtin ImageGen once per direction through Sprite Studio/Codex subscription; actual modelID unavailable.",
+      "result": "Original LEFT/RIGHT/UP outputs preserved separately. Soles at46/46/45 vs target44; visible palette380/359/397 vs down44. Technical outputs kept unchanged, all root offsets reported."
+    }
+  ],
+  "animation_attempts": [
+    {
+      "phase": "down-idle-walk",
+      "request_id": "19298ae1-b843-40a8-a729-c7e6301ad8e0",
+      "started": "2026-10-04T08:54:11.239Z",
+      "request": {
+        "prompt": "/animate The down-facing technical master at assets/characters/aevora-resident-teal-neutral-master.png has passed an initial 1x/2x anatomy/readability review. Its complete canvas is 64x64, opaque bbox is approximately (23,6,18,39), feet reach y=44. ART-R001 gameplay comparison pivot remains explicitly (32,44); an upstream centroid-derived anchor is a measurement, never permission to change it. Generate ONLY down-facing Idle (four-frame loop) first, then down-facing Walk (six-frame loop) for this same original character, native rig-only from the approved master. No AI image polish/redraw/new master. Use Sprite Studio's pinned rig machinery and preserve rig definitions, pose tables and complete original output frames. Both animations use unchanged 64x64 canvases, 150ms per frame / fps=6.6666666667, hard alpha and in-place motion; fixed root X=32/Y=44 with no accumulated translation. Forbid per-frame crop/trim, bbox recentering, rescaling, normalize_animation, or silent centroid-based alignment. Do not imitate/attach Craftpix. Use the exact master pixels as identity. Save the complete four Idle PNG frames under assets/characters/art-r001/down/idle/ and six Walk PNG frames under assets/characters/art-r001/down/walk/. Record actual native renderer mode and motion/root review. Do not repeat a static master to pretend animation success. If the pinned engine cannot fulfill this contract, stop with the exact diagnostic, preserve failed attempt evidence, and do not invent a substitute renderer. Operate only in this isolated Sprite Studio workspace; do not modify AEVORA or use paid APIs. No Run/weapon/attack/equipment/hurt/death and no other directions yet.",
+        "command": "animate",
+        "imageProviderId": "imagegen",
+        "generation": {
+          "width": 64,
+          "height": 64,
+          "frames": 6,
+          "fps": 7,
+          "quality": "high",
+          "frameMode": "fixed",
+          "minFrames": 4,
+          "maxFrames": 6,
+          "allowInterpolation": false
+        }
+      },
+      "status": "failed",
+      "result": "Python helper integer-FPS preflight rejects 6.6666666667; no frames. This was an over-constrained source-cadence request; handoff permits different source timing."
+    },
+    {
+      "phase": "down-idle-walk-7fps",
+      "request_id": "90056043-7964-42ea-94e2-09c91786aaf1",
+      "started": "2026-10-04T08:56:45.194Z",
+      "request": {
+        "prompt": "/animate Continue the approved 64x64 down-facing master at assets/characters/aevora-resident-teal-neutral-master.png. The prior preflight correctly found that this pinned Python rig helper accepts integer FPS only. ART-R001 explicitly permits a different original source cadence and separate normalized comparison timing, so render the ORIGINAL source loops at 7 FPS (preserve this source timing); AEVORA will declare the separate normalized comparison cadence as 150ms/frame without modifying frame pixels. Do not attempt non-integer renderer FPS again. Generate only down-facing Idle (four-frame loop) first, then down-facing Walk (six-frame loop), using Sprite Studio's PINNED native rig machinery. No AI image generation/polish/redraw/new master, and no substitute renderer. Preserve rig definitions, pose tables and complete original output PNG frames. Canvas stays exactly 64x64 with real hard alpha, root comparison target (32,44), in-place no accumulated translation. Never per-frame crop/trim, bbox-center, rescale, normalize_animation, or adopt the centroid anchor as gameplay pivot. The upstream heuristic n-facing tag is not authoritative: this master is visibly DOWN-facing. Save the four Idle frames under assets/characters/art-r001/down/idle/ and six Walk frames under assets/characters/art-r001/down/walk/; preserve originals and timing. Render genuine motion, not repeated static frames. Inspect anatomy/contact/root stability and stop with diagnostics if the pinned renderer cannot render a coherent loop within this canvas. Operate only in the isolated Sprite Studio workspace, no AEVORA modifications/paid APIs. No other directions, Run, weapon, attack, hurt/death or equipment. This is one bounded correction after the cadence-only preflight failure, not an invitation for repeated speculative rig repairs.",
+        "command": "animate",
+        "imageProviderId": "imagegen",
+        "generation": {
+          "width": 64,
+          "height": 64,
+          "frames": 6,
+          "fps": 7,
+          "quality": "high",
+          "frameMode": "fixed",
+          "minFrames": 4,
+          "maxFrames": 6,
+          "allowInterpolation": false
+        }
+      },
+      "status": "failed",
+      "result": "Upstream keyword routing classified deictic master prompt as props; no frames. Corrected by explicit CHARACTER subject without source patches."
+    },
+    {
+      "phase": "down-idle-walk-7fps-character",
+      "request_id": "ec8a4168-f68b-465b-8bcd-7aa4cd7b5376",
+      "started": "2026-10-04T09:00:22.841Z",
+      "request": {
+        "prompt": "/animate Animate the original HUMAN CHARACTER AEVORA Base Human v0 from the approved down-facing master assets/characters/aevora-resident-teal-neutral-master.png. This is explicitly a CHARACTER animation, not another asset category. The last request was rejected before rendering because it mentioned a master without the explicit character subject; this wording corrects that routing input, not the source code. Render only down-facing Idle (four-frame loop) followed by down-facing Walk (six-frame loop) using Sprite Studio's PINNED rig engine. Source loops use INTEGER 7 FPS, preserved separately; AEVORA will apply normalized comparison timing 150ms/frame later without pixel edits, as the handoff allows. No AI image calls, polish, redraw, new master or substitute renderer. Keep exact 64x64 full canvases, hard alpha, fixed comparison root (32,44) and in-place motion. Never individually crop/trim, bbox-center, rescale, normalize_animation or silently adopt centroid pivot. This master is visibly DOWN-facing despite the upstream heuristic north tag. Save four original Idle PNGs under assets/characters/art-r001/down/idle/ and six original Walk PNGs under assets/characters/art-r001/down/walk/, preserving rig, pose table, original timing and failed-attempt history. Render genuine loops, not static-frame duplication. Review anatomy/contact/root stability. Stop with the exact diagnostic if the pinned engine still cannot render coherent motion within the canvas; do not invent a replacement pipeline. Stay in this isolated workspace and do not modify AEVORA. Only these two states and this direction are authorized now.",
+        "command": "animate",
+        "imageProviderId": "imagegen",
+        "generation": {
+          "width": 64,
+          "height": 64,
+          "frames": 6,
+          "fps": 7,
+          "quality": "high",
+          "frameMode": "fixed",
+          "minFrames": 4,
+          "maxFrames": 6,
+          "allowInterpolation": false
+        }
+      },
+      "status": "completed_with_quality_warning",
+      "result": "Upstream 3-validate repair budget published4Idleframes with remaining-quality warning and left a mechanically valid6frame Walk rig. Read-only Walk check passed; one manual call to the SAME pinned bundled renderer produced6Walkframes on2026-10-04T09:08:24.277Z, no rig repair or substitute renderer.",
+      "completed": "2026-10-04T09:03:08Z"
+    },
+    {
+      "phase": "native-other-directions",
+      "request_id": "341d67f2-72d5-4df6-8bae-4f6bc8467f4a",
+      "request": {
+        "prompt": "Animate the THREE existing original HUMAN CHARACTER direction masters of AEVORA Base Human v0 using Sprite Studio's pinned native rig-only workflow, NOT props and NOT new image generation. This is a bounded prototype experiment following visual/alpha/margin review; source identity is retained, palette drift and sole offsets require later human review. Existing immutable sources: LEFT assets/characters/aevora-base-human-v0-left-master.png (sole Y46), RIGHT assets/characters/aevora-base-human-v0-right-master.png (sole Y46), UP assets/characters/aevora-base-human-v0-up-master.png (sole Y45). For EACH direction, author and native-render exactly Idle FOUR distinct frames and Walk SIX distinct frames, 7 integer FPS source, looping, in-place rootMotion with per-frame root dx=dy=0. Preserve character-facing semantics and actual elevated top-down camera, no mirror/relabel of down. Fit each rig's masks, pelvis, shoulder/hip/knee/ankle and foot-contact anchors to its ACTUAL immutable source pixel anatomy, not reused down coordinates. Contacts may stay on that source's original Y46 or Y45 ground; AEVORA comparison root target remains (32,44), DO NOT shift/center/crop any master or animation frame to hide the measured source offsets. Every output must be a complete hard-alpha 64x64 canvas with clear border. Retain head/hair/tunic/boots, avoid repeated static placeholders, clipping, orphan fragments or broad arm-mask gaps. Use only the same bundled native sprite_rig.py engine (no replacement renderer or app-source patch); no AI polish/redraw, no paid APIs, no extra states. One bounded rig-fit/preflight per clip: preserve all six authored v3 rig JSONs under .sprite-studio/rigs/art-r001-<direction>-<idle|walk>.json, record --check mechanics/root/contact results and render the passing native rigs once. For a failed preflight, preserve exact diagnostic, report BLOCKED rather than fake output or start many repair loops. Assets should be named assets/characters/art-r001-<direction>-<idle|walk>_01.png etc, preserve original source timing7FPS separately from target150ms. Write explicit last-generation manifest matching the actual complete technical frames, not the large raw sources. No AEVORA repo writes, no down-source modification.",
+        "command": "animate",
+        "imageProviderId": "imagegen",
+        "generation": {
+          "width": 64,
+          "height": 64,
+          "frames": 6,
+          "fps": 7,
+          "quality": "high",
+          "frameMode": "fixed",
+          "minFrames": 4,
+          "maxFrames": 6,
+          "allowInterpolation": false
+        }
+      },
+      "status": "failed_native_anatomy_preflight",
+      "started": "2026-10-04T09:36:28.815Z",
+      "completed": "2026-10-04T09:38:44.037Z",
+      "result": "All six v3 rig definitions preserved. Provider stopped on left-idle neck7.52px mismatch before rendering. One read-only --check per remaining authored clip confirmed neck/hip segmentation or undeclared arm/torso overlaps; no other-direction frames rendered, no repair/source patch/fake duplicates. Exact diagnostics review/native-direction-preflights.json."
+    }
+  ],
+  "generation_status": "blocked_incomplete_directions",
+  "prototype_only": true,
+  "commercial_approval": false,
+  "tool_anchor": {
+    "slug": "aevora-base-human-v0-down",
+    "measured_pivot": [
+      31.498855835240274,
+      44
+    ],
+    "baseline_y": 44,
+    "heuristic_facing": "n",
+    "heuristic_confidence": 0.528604118993135,
+    "actual_reviewed_facing": "down",
+    "gameplay_comparison_pivot": [
+      32,
+      44
+    ],
+    "note": "Centroid/heuristic tags are diagnostics, not authority to recenter/change gameplay pivot or semantic direction. autoOrient=false."
+  },
+  "master_review": "Four masters reviewed at1x/2x, human anatomy/identity/readability/safe64canvas pass prototype gate; roots unchanged32,44. Left/right soles46/up45 and palette/head differences require visual review; no final approval.",
+  "complete_four_direction_contract": false,
+  "actual_outputs": {
+    "masters": 4,
+    "idle_frames": {
+      "down": 4,
+      "left": 0,
+      "right": 0,
+      "up": 0
+    },
+    "walk_frames": {
+      "down": 6,
+      "left": 0,
+      "right": 0,
+      "up": 0
+    },
+    "normalized_sheets": [],
+    "missing_animation_frames": 30
+  },
+  "preserved_master_files": [
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_down_ai_original.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 322433,
+      "sha256": "F2EC488AF99DB8DECFDB27ADF204B4B6931155E225F89AED800F8E3E243CCEBA"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_down.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 1776,
+      "sha256": "B2697D8B9D3DBA53628320B2D72CC7B2F6D0F94E30B6091C40305AAD3085CF74"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_left_ai_original.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 282592,
+      "sha256": "E040FAD1D9968C7EDDEDA6D6B4C753B3304BBF09F385E2FF2C9FABB7A4D1936C"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_left.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 1755,
+      "sha256": "818E93AFD8BC675D99E4D4C4AFE69A3793557CFFF90394240B5A839BD7C917EC"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_right_ai_original.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 274688,
+      "sha256": "A882D380DBB81D04C117EA2E78F27159B83EA458E8575EB1D0E276D601B06E80"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_right.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 1665,
+      "sha256": "A99D949D4E8D69FCAD56E5CBC69723400927F5CD94730419FFE037F831E44538"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_up_ai_original.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 288573,
+      "sha256": "62806CE355006B496ACB67D339ACF4AD87E58DFC3B4356DA7B0D97AB78551A82"
+    },
+    {
+      "path": "res://art/rnd/art_r001/candidates/sprite_studio/master_up.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 1809,
+      "sha256": "AE0E0FE4C45F16BCDAF68B35DBCA8B4EF7027DFEBB299015CFA1B7CE996A7BBF"
+    }
+  ],
+  "provenance_limitations": [
+    "Exact submitted MCP character/direction/animation prompts and actual settings are preserved here; lower-level ImageGen expanded prompts/model identifier were not exposed in MCP generation results.",
+    "Original image files/hashes preserved; commercial/legal approval is not inferred from generation or tool license."
+  ],
+  "manual_interventions": [
+    "Local interpreter launchers to already-installed bundled Python; no pinned source patch",
+    "Workspace recovery manifest correction for64px down master",
+    "One direct pinned native Walk render after passing read-only mechanics check, due premature provider budget-finalization",
+    "Complete source PNG copies/hash checks; rejected rig definitions retained; no human artist cleanup and no per-frame geometric edits"
+  ]
+}

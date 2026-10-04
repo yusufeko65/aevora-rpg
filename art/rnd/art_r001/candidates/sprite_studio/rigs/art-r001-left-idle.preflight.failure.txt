@@ -1,0 +1,5 @@
+Command:
+py -3 .sprite-studio\sprite_rig.py --check .sprite-studio\rigs\art-r001-left-idle.json
+
+Result:
+sprite_rig: joint 'neck' is marked visible but sits 7.52px from part 'head'; the anatomy is not actually segmented at that joint

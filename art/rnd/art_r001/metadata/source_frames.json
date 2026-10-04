@@ -1,0 +1,73 @@
+{
+  "id": "ARTCHAR-R001",
+  "scope": "four-direction source map; missing paths never replaced with duplicates",
+  "source_fps": 7,
+  "normalized_duration_ms": 150,
+  "frame_policy": "Keep every complete64x64 source canvas unchanged; fixed-grid assembly only",
+  "frames": {
+    "down": {
+      "idle": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_04.png"
+      ],
+      "walk": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_04.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_05.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_06.png"
+      ]
+    },
+    "left": {
+      "idle": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_04.png"
+      ],
+      "walk": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_04.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_05.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_06.png"
+      ]
+    },
+    "right": {
+      "idle": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_04.png"
+      ],
+      "walk": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_04.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_05.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_06.png"
+      ]
+    },
+    "up": {
+      "idle": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_04.png"
+      ],
+      "walk": [
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_01.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_02.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_03.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_04.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_05.png",
+        "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_06.png"
+      ]
+    }
+  }
+}

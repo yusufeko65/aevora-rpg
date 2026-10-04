@@ -1,0 +1,5 @@
+Command:
+py -3 .sprite-studio\sprite_rig.py --check .sprite-studio\rigs\art-r001-down-animation-fps-preflight.json
+
+Result:
+sprite_rig: fps must be an integer between 1 and 60

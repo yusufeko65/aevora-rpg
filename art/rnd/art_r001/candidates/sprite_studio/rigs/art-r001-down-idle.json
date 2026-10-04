@@ -1,0 +1,277 @@
+{
+  "rigVersion": 3,
+  "rigProfile": "human_sprite_rig",
+  "name": "art-r001-down-idle",
+  "category": "characters",
+  "source": "assets/characters/aevora-resident-teal-neutral-master.png",
+  "masterHash": "b2697d8b9d3dba53628320b2d72cc7b2f6d0f94e30b6091c40305aad3085cf74",
+  "fps": 7,
+  "looping": true,
+  "rootMotion": "in-place",
+  "baseZ": 0,
+  "proposal": {
+    "morphologyTag": "biped",
+    "motionIntent": "down-facing controlled idle loop"
+  },
+  "palette": {},
+  "joints": [
+    {
+      "name": "neck",
+      "kind": "neck",
+      "position": [
+        32.0,
+        18.0
+      ],
+      "visibility": "visible",
+      "parts": [
+        "torso",
+        "head"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "head",
+      "role": "head",
+      "mask": {
+        "rect": [
+          24,
+          6,
+          17,
+          12
+        ]
+      },
+      "pivot": [
+        32.0,
+        18.0
+      ],
+      "anchors": {
+        "neck": [
+          32.0,
+          18.0
+        ],
+        "crown": [
+          32.0,
+          7.0
+        ]
+      },
+      "bone": {
+        "startAnchor": "neck",
+        "endAnchor": "crown",
+        "radius": 0.5
+      },
+      "parent": "torso",
+      "attach": {
+        "parentAnchor": "neck",
+        "selfAnchor": "neck"
+      },
+      "z": 4
+    },
+    {
+      "name": "torso",
+      "role": "torso",
+      "mask": {
+        "rect": [
+          25,
+          18,
+          14,
+          15
+        ]
+      },
+      "pivot": [
+        32.0,
+        31.0
+      ],
+      "anchors": {
+        "neck": [
+          32.0,
+          18.0
+        ],
+        "far_shoulder": [
+          25.0,
+          22.0
+        ],
+        "near_shoulder": [
+          39.0,
+          22.0
+        ],
+        "pelvis": [
+          32.0,
+          31.0
+        ]
+      },
+      "bone": {
+        "startAnchor": "neck",
+        "endAnchor": "pelvis",
+        "radius": 0.5
+      },
+      "z": 3,
+      "parent": null
+    },
+    {
+      "name": "far_left_arm",
+      "role": "far_left_arm",
+      "mask": {
+        "rect": [
+          21,
+          21,
+          4,
+          11
+        ]
+      },
+      "pivot": [
+        25.0,
+        22.0
+      ],
+      "anchors": {
+        "shoulder": [
+          25.0,
+          22.0
+        ],
+        "wrist": [
+          23.0,
+          31.0
+        ]
+      },
+      "bone": {
+        "startAnchor": "shoulder",
+        "endAnchor": "wrist",
+        "radius": 0.5
+      },
+      "parent": "torso",
+      "attach": {
+        "parentAnchor": "far_shoulder",
+        "selfAnchor": "shoulder"
+      },
+      "z": 1
+    },
+    {
+      "name": "near_right_arm",
+      "role": "near_right_arm",
+      "mask": {
+        "rect": [
+          39,
+          21,
+          4,
+          11
+        ]
+      },
+      "pivot": [
+        39.0,
+        22.0
+      ],
+      "anchors": {
+        "shoulder": [
+          39.0,
+          22.0
+        ],
+        "wrist": [
+          41.0,
+          31.0
+        ]
+      },
+      "bone": {
+        "startAnchor": "shoulder",
+        "endAnchor": "wrist",
+        "radius": 0.5
+      },
+      "parent": "torso",
+      "attach": {
+        "parentAnchor": "near_shoulder",
+        "selfAnchor": "shoulder"
+      },
+      "z": 5
+    }
+  ],
+  "frames": [
+    {
+      "pose": "idle_neutral",
+      "phase": "settled",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 0
+        },
+        "far_left_arm": {
+          "rotate": -4
+        },
+        "near_right_arm": {
+          "rotate": 4
+        }
+      },
+      "zOverrides": {},
+      "ik": []
+    },
+    {
+      "pose": "idle_inhale",
+      "phase": "rise",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": -3
+        },
+        "far_left_arm": {
+          "rotate": -9
+        },
+        "near_right_arm": {
+          "rotate": 8
+        }
+      },
+      "zOverrides": {},
+      "ik": []
+    },
+    {
+      "pose": "idle_release",
+      "phase": "fall",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 0
+        },
+        "far_left_arm": {
+          "rotate": 4
+        },
+        "near_right_arm": {
+          "rotate": -4
+        }
+      },
+      "zOverrides": {},
+      "ik": []
+    },
+    {
+      "pose": "idle_return",
+      "phase": "recover",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 3
+        },
+        "far_left_arm": {
+          "rotate": 8
+        },
+        "near_right_arm": {
+          "rotate": -9
+        }
+      },
+      "zOverrides": {},
+      "ik": []
+    }
+  ],
+  "planningMode": "ai-rig-deterministic-render"
+}

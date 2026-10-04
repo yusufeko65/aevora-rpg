@@ -1,0 +1,376 @@
+{
+	"checks": 117,
+	"directions": {
+		"down": {
+			"idle": {
+				"distinct_frames": 4,
+				"frames": [
+					{
+						"bbox": [
+							23,
+							6,
+							18,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "1bd8e50e9f2389619e79edad094f247aab574978dc5b55c932f4ae906489bd6c",
+						"frame": 0,
+						"margin_bottom": 19,
+						"margin_left": 23,
+						"margin_right": 23,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.4941995359629,
+							24.0835266821346
+						],
+						"opaque_pixels": 431,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_01.png",
+						"pixel_sha256": "bdb3f0ced393ed1b47ae42e9e5531ea09f8a0eae53b10d1744d3dcc04916f090",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3665,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 18
+					},
+					{
+						"bbox": [
+							23,
+							6,
+							17,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "e8637b3fd7031773016a772d390ffe0f4fa0ca10254d9c10440d91a4db196932",
+						"frame": 1,
+						"margin_bottom": 19,
+						"margin_left": 23,
+						"margin_right": 24,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.0236966824645,
+							24.063981042654
+						],
+						"opaque_pixels": 422,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_02.png",
+						"pixel_sha256": "a74f0b9547dba12d999b596d63d8007f6a4d09ef7990407c13e4ea3a08a508bd",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3674,
+						"unique_visible_colors": 43,
+						"visible_height": 39,
+						"visible_width": 17
+					},
+					{
+						"bbox": [
+							23,
+							6,
+							19,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "8241fa2b20dbd032a8f2ba22326117aed36be1b03a9e8558a03d3f91a8deecba",
+						"frame": 2,
+						"margin_bottom": 19,
+						"margin_left": 23,
+						"margin_right": 22,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.5034324942792,
+							24.1647597254005
+						],
+						"opaque_pixels": 437,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_03.png",
+						"pixel_sha256": "21304af3d3702d52036d15e04b08ba26cb838e9470720799fe68caca54374c07",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3659,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 19
+					},
+					{
+						"bbox": [
+							22,
+							6,
+							20,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "b0917436741af74ff80a6d879fd1aa6cba72a2f20620d035b0b8363526f2b60d",
+						"frame": 3,
+						"margin_bottom": 19,
+						"margin_left": 22,
+						"margin_right": 22,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.883295194508,
+							24.141876430206
+						],
+						"opaque_pixels": 437,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-idle_04.png",
+						"pixel_sha256": "b75887b3c6ebb7732f9801af25c036ef3ca09eec931914182e386ada77c4773f",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3659,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 20
+					}
+				],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-down-idle.json"
+			},
+			"walk": {
+				"distinct_frames": 6,
+				"frames": [
+					{
+						"bbox": [
+							22,
+							6,
+							21,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "4fc9afddccde55e661f766275eabcea761006bd826854c6461f5c03c16ef8b93",
+						"frame": 0,
+						"margin_bottom": 19,
+						"margin_left": 22,
+						"margin_right": 21,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.6788990825688,
+							24.1307339449541
+						],
+						"opaque_pixels": 436,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_01.png",
+						"pixel_sha256": "eb884821f1cf9563ef45c1fa65434bb485727791c380d5d58a4b20ac71dd5239",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3660,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 21
+					},
+					{
+						"bbox": [
+							22,
+							6,
+							20,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "9fc78579b2f0acfa06018395c1a241417063c739f426e57345f420c8e34c41ec",
+						"frame": 1,
+						"margin_bottom": 19,
+						"margin_left": 22,
+						"margin_right": 22,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.0228310502283,
+							24.0867579908676
+						],
+						"opaque_pixels": 438,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_02.png",
+						"pixel_sha256": "6596b4dff0ce712aa4cc5a3c79bd02479305a548907345a3f81680a3a0b61bf6",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3658,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 20
+					},
+					{
+						"bbox": [
+							23,
+							6,
+							18,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "692a82ae1b18c527bc7f31ca4be7a415c0e6a67b480af5cd56ba186203b91a2c",
+						"frame": 2,
+						"margin_bottom": 19,
+						"margin_left": 23,
+						"margin_right": 23,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.4080188679245,
+							24.0377358490566
+						],
+						"opaque_pixels": 424,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_03.png",
+						"pixel_sha256": "1af1b0215c7535e247c3bedb97762c60c800c91538e9d5ee49ff64f1ac6c2870",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3672,
+						"unique_visible_colors": 43,
+						"visible_height": 39,
+						"visible_width": 18
+					},
+					{
+						"bbox": [
+							23,
+							6,
+							18,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "2c9be39159d452248afab35e3fe4359181dc5b1e0b741406366d9aa2c9fc11eb",
+						"frame": 3,
+						"margin_bottom": 19,
+						"margin_left": 23,
+						"margin_right": 23,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.3231132075472,
+							24.0212264150943
+						],
+						"opaque_pixels": 424,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_04.png",
+						"pixel_sha256": "f77d5c6e0d735fc8de856cd0f76635b6cd69fc4aedd2cfe32e178f043195d172",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3672,
+						"unique_visible_colors": 42,
+						"visible_height": 39,
+						"visible_width": 18
+					},
+					{
+						"bbox": [
+							24,
+							6,
+							17,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "0563d2f3312d48e399fbc7f898a89ca180f9789403f80c8b346f12179e9b67b6",
+						"frame": 4,
+						"margin_bottom": 19,
+						"margin_left": 24,
+						"margin_right": 23,
+						"margin_top": 6,
+						"opaque_centroid": [
+							32.0259433962264,
+							24.0259433962264
+						],
+						"opaque_pixels": 424,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_05.png",
+						"pixel_sha256": "ca9681628005573b072ee0a6f30af4a7bc20a9a80328789f063fb06dde572c63",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3672,
+						"unique_visible_colors": 42,
+						"visible_height": 39,
+						"visible_width": 17
+					},
+					{
+						"bbox": [
+							22,
+							6,
+							21,
+							39
+						],
+						"bottom_delta_from_target_root": 0,
+						"bottommost_opaque_y": 44,
+						"file_sha256": "c07490969bfe14687d227cd01d54da74f0192f9839d66baa83ecc4c37ebd25fb",
+						"frame": 5,
+						"margin_bottom": 19,
+						"margin_left": 22,
+						"margin_right": 21,
+						"margin_top": 6,
+						"opaque_centroid": [
+							31.6159090909091,
+							24.2181818181818
+						],
+						"opaque_pixels": 440,
+						"path": "res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-down-walk_06.png",
+						"pixel_sha256": "e713cfb7b0f50cc1807bf143f97420024bd5574f305121b026cd7f4367a9e02b",
+						"semi_alpha_pixels": 0,
+						"transparent_pixels": 3656,
+						"unique_visible_colors": 44,
+						"visible_height": 39,
+						"visible_width": 21
+					}
+				],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-down-walk.json"
+			}
+		},
+		"left": {
+			"idle": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-left-idle.json"
+			},
+			"walk": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-left-walk.json"
+			}
+		},
+		"right": {
+			"idle": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-right-idle.json"
+			},
+			"walk": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-right-walk.json"
+			}
+		},
+		"up": {
+			"idle": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-up-idle.json"
+			},
+			"walk": {
+				"distinct_frames": 0,
+				"frames": [],
+				"rig": "res://art/rnd/art_r001/candidates/sprite_studio/rigs/art-r001-up-walk.json"
+			}
+		}
+	},
+	"errors": [],
+	"measurement_policy": "read-only; physical sole offsets and moving centroid never recenter frames",
+	"missing": [
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-idle_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_05.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-left-walk_06.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-idle_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_05.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-right-walk_06.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-idle_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_01.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_02.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_03.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_04.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_05.png",
+		"res://art/rnd/art_r001/candidates/sprite_studio/frames/art-r001-up-walk_06.png"
+	],
+	"normalized_duration_ms": 150,
+	"pivot": [
+		32,
+		44
+	],
+	"source_fps": 7,
+	"status": "BLOCKED"
+}

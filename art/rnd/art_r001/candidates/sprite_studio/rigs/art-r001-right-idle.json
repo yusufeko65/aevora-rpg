@@ -1,0 +1,252 @@
+{
+  "rigVersion": 3,
+  "rigProfile": "human_sprite_rig",
+  "category": "characters",
+  "source": "assets/characters/aevora-base-human-v0-right-master.png",
+  "masterHash": "a99d949d4e8d69fcad56e5cbc69723400927f5cd94730419ffe037f831e44538",
+  "fps": 7,
+  "looping": true,
+  "rootMotion": "in-place",
+  "baseZ": 0,
+  "palette": {},
+  "proposal": {
+    "morphologyTag": "biped",
+    "motionIntent": "down-facing-direction neutral idle"
+  },
+  "name": "art-r001-right-idle",
+  "joints": [
+    {
+      "name": "neck",
+      "kind": "neck",
+      "position": [
+        32,
+        25
+      ],
+      "visibility": "visible",
+      "parts": [
+        "torso",
+        "head"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "head",
+      "role": "head",
+      "mask": {
+        "rect": [
+          25,
+          8,
+          14,
+          11
+        ]
+      },
+      "pivot": [
+        32,
+        18
+      ],
+      "anchors": {
+        "neck": [
+          32,
+          18
+        ],
+        "crown": [
+          32,
+          13
+        ]
+      },
+      "bone": {
+        "startAnchor": "neck",
+        "endAnchor": "crown",
+        "radius": 0.5
+      },
+      "z": 4
+    },
+    {
+      "name": "torso",
+      "role": "torso",
+      "mask": {
+        "rect": [
+          27,
+          19,
+          10,
+          13
+        ]
+      },
+      "pivot": [
+        32,
+        32
+      ],
+      "anchors": {
+        "neck": [
+          32,
+          25
+        ],
+        "pelvis": [
+          32,
+          32
+        ],
+        "left_hip": [
+          28,
+          34
+        ],
+        "right_hip": [
+          35,
+          34
+        ]
+      },
+      "bone": {
+        "startAnchor": "neck",
+        "endAnchor": "pelvis",
+        "radius": 0.5
+      },
+      "z": 3
+    },
+    {
+      "name": "far_arm",
+      "role": "far_arm",
+      "mask": {
+        "rect": [
+          25,
+          22,
+          3,
+          11
+        ]
+      },
+      "pivot": [
+        26,
+        27
+      ],
+      "anchors": {
+        "shoulder": [
+          26,
+          27
+        ],
+        "wrist": [
+          26,
+          32
+        ]
+      },
+      "bone": {
+        "startAnchor": "shoulder",
+        "endAnchor": "wrist",
+        "radius": 0.5
+      },
+      "z": 1
+    },
+    {
+      "name": "near_arm",
+      "role": "near_arm",
+      "mask": {
+        "rect": [
+          36,
+          22,
+          3,
+          11
+        ]
+      },
+      "pivot": [
+        37,
+        28
+      ],
+      "anchors": {
+        "shoulder": [
+          37,
+          28
+        ],
+        "wrist": [
+          36,
+          31
+        ]
+      },
+      "bone": {
+        "startAnchor": "shoulder",
+        "endAnchor": "wrist",
+        "radius": 0.5
+      },
+      "z": 5
+    }
+  ],
+  "frames": [
+    {
+      "pose": "idle_neutral",
+      "phase": "settled",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 0
+        },
+        "far_arm": {
+          "rotate": -4
+        },
+        "near_arm": {
+          "rotate": 4
+        }
+      }
+    },
+    {
+      "pose": "idle_rise",
+      "phase": "rise",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": -3
+        },
+        "far_arm": {
+          "rotate": -9
+        },
+        "near_arm": {
+          "rotate": 8
+        }
+      }
+    },
+    {
+      "pose": "idle_release",
+      "phase": "fall",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 0
+        },
+        "far_arm": {
+          "rotate": 4
+        },
+        "near_arm": {
+          "rotate": -4
+        }
+      }
+    },
+    {
+      "pose": "idle_return",
+      "phase": "recover",
+      "root": {
+        "dx": 0,
+        "dy": 0
+      },
+      "contacts": [],
+      "transforms": {
+        "torso": {
+          "rotate": 3
+        },
+        "far_arm": {
+          "rotate": 8
+        },
+        "near_arm": {
+          "rotate": -9
+        }
+      }
+    }
+  ]
+}

@@ -56,6 +56,15 @@ DEV-001..004 runtime outputs are superseded by DEV-R001. The entries below remai
 - Four regression suites pass: 23,161 checks /zero failures. Three native1280×720 F2/contact/Y-sort captures reviewed. Pre-existing unrelated edits preserved outside the commit.
 - Full evidence, issues and lessons: `docs/reports/dev-r001-3-actor-collision.md`. Stop for review; next track requires an explicit choice.
 
+## ART-R001 character asset production R&D (2026-10-04)
+
+- Established isolated64×64 ARTCHAR-R001 pipeline without replacing the DEV-R001.3 runtime Player or changing gameplay/vendor art.
+- Built/evaluated Sprite Studio0.3.3 at9de73a6 outside repo; frontend and325Rust tests pass, strict Clippy failure documented. TDSM/Aseprite not available; checklists prepared, no purchase/API fallback.
+- Preserved four original masters plus native down Idle4/Walk6. Six other-direction rigs failed anatomy preflight;30frames/complete normalized sheets remain BLOCKED, never filled with dummy copies.
+- Added read-only geometry/provenance/source checks and equivalent-scale Godot comparison with explicit source-only/missing labels; root(32,44) unchanged, directional soles+1/+2px and palette drift require review.
+- Verification:23,161gameplay checks pass;153validator self-tests,117source structural checks and52comparison checks have zero errors; real complete-asset status staysBLOCKED. Eight native captures reviewed.
+- Full report: `docs/reports/art-r001-character-asset-production-rnd.md`. Local commit only; stop for visual/tooling review, no runtime promotion or new states.
+
 ## Historical DEV-001..004 records
 
 ### DEV-001 Baseline inventory
