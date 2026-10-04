@@ -205,7 +205,7 @@ func run_tests() -> void:
 		else:
 			waited += 1
 	check(walked > 300 and waited > 300, "Ambient alternates travel and idle")
-	check(boar.get_node("CollisionShape2D").shape.size == Vector2(16, 8) and boar.collision_mask == 2, "Fixed ambient footprint/environment-only mask")
+	check(boar.get_node("CollisionShape2D").shape.size == Vector2(16, 8) and boar.collision_mask == 3, "Fixed ambient footprint; Player + Environment mask (DEV-R001.3)")
 	# Actual physics steps prove the source gate and footprint geometry, not just nodes.
 	# Clear the earlier same-frame semantic attack press before re-enabling physics.
 	await physics_frame

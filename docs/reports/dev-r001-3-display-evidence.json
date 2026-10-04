@@ -1,0 +1,110 @@
+[
+	{
+		"F2": true,
+		"attack_finishes": 0,
+		"boar": {
+			"feet": "[P: (632.0, 426.0), S: (16.0, 8.0)]",
+			"position": "(640.0, 432.0)",
+			"state": "idle"
+		},
+		"file": "dev-r001-3-player-boar-collision.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"penetration_area": 0.0,
+		"player": {
+			"facing": "up",
+			"feet": "[P: (635.0, 434.0013), S: (10.0, 6.0)]",
+			"frame": 0,
+			"position": "(640.0, 438.0013)",
+			"state": "idle"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"vertical_contact_gap": 0.001312255859375,
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"F2": true,
+		"attack_finishes": 0,
+		"boar": {
+			"feet": "[P: (632.0, 426.0), S: (16.0, 8.0)]",
+			"position": "(640.0, 432.0)",
+			"state": "idle"
+		},
+		"file": "dev-r001-3-player-boar-y-sort-above.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"penetration_area": 0.0,
+		"player": {
+			"facing": "down",
+			"feet": "[P: (635.0, 419.9996), S: (10.0, 6.0)]",
+			"frame": 0,
+			"position": "(640.0, 423.9996)",
+			"state": "idle"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"vertical_contact_gap": 0.00042724609375,
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"F2": true,
+		"attack_finishes": 0,
+		"boar": {
+			"feet": "[P: (632.0, 426.0), S: (16.0, 8.0)]",
+			"position": "(640.0, 432.0)",
+			"state": "idle"
+		},
+		"file": "dev-r001-3-run-attack-boar-block.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"method": "actual displayed root Window framebuffer; no image resizing",
+		"penetration_area": 0.0,
+		"player": {
+			"facing": "up",
+			"feet": "[P: (635.0, 434.0018), S: (10.0, 6.0)]",
+			"frame": 4,
+			"position": "(640.0, 438.0018)",
+			"state": "run_attack"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"vertical_contact_gap": 0.0018310546875,
+		"window_size": [
+			1280,
+			720
+		]
+	}
+]

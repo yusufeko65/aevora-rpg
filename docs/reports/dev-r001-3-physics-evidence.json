@@ -1,0 +1,345 @@
+{
+	"actor_contacts": [
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 67,
+			"direction": "(-1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(653.0013, 432.0)",
+			"progress": 18.9986572265625
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 67,
+			"direction": "(1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(626.9987, 432.0)",
+			"progress": 18.9986572265625
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 58,
+			"direction": "(0.0, -1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 438.0013)",
+			"progress": 25.9986877441406
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 60,
+			"direction": "(0.0, 1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 423.9996)",
+			"progress": 23.9996337890625
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 34,
+			"direction": "(-0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(611.715, 422.8017)",
+			"progress": 58.5047569274902
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 34,
+			"direction": "(0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(668.285, 422.8016)",
+			"progress": 58.5047760009766
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 38,
+			"direction": "(-0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(611.717, 439.1982)",
+			"progress": 57.0890274047852
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_walk",
+			"contact_ticks": 38,
+			"direction": "(0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(668.283, 439.1982)",
+			"progress": 57.0890274047852
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 80,
+			"direction": "(-1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(653.0018, 432.0)",
+			"progress": 18.9981689453125
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 80,
+			"direction": "(1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(626.9982, 432.0)",
+			"progress": 18.9981689453125
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 77,
+			"direction": "(0.0, -1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 438.0018)",
+			"progress": 25.9981689453125
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 78,
+			"direction": "(0.0, 1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 423.9969)",
+			"progress": 23.9968872070313
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 15,
+			"direction": "(-0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(543.8326, 372.0747)",
+			"progress": 142.374206542969
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 15,
+			"direction": "(0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(736.1675, 354.9183)",
+			"progress": 154.505645751953
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 16,
+			"direction": "(-0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(543.8325, 507.0817)",
+			"progress": 153.091506958008
+		},
+		{
+			"boar_position": "(640.0, 432.0)",
+			"case": "player_run",
+			"contact_ticks": 16,
+			"direction": "(0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(736.1675, 507.0817)",
+			"progress": 153.091506958008
+		},
+		{
+			"boar_position": "(653.0005, 432.0)",
+			"case": "boar_walk",
+			"direction": "(-1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 14.9994506835938,
+			"state": "idle",
+			"velocity": "(0.0, 0.0)"
+		},
+		{
+			"boar_position": "(626.9995, 432.0)",
+			"case": "boar_walk",
+			"direction": "(1.0, 0.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 14.9994506835938,
+			"state": "idle",
+			"velocity": "(0.0, 0.0)"
+		},
+		{
+			"boar_position": "(640.0, 440.0005)",
+			"case": "boar_walk",
+			"direction": "(0.0, -1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 19.9994812011719,
+			"state": "idle",
+			"velocity": "(0.0, 0.0)"
+		},
+		{
+			"boar_position": "(640.0, 425.9997)",
+			"case": "boar_walk",
+			"direction": "(0.0, 1.0)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 21.9996643066406,
+			"state": "idle",
+			"velocity": "(0.0, 0.0)"
+		},
+		{
+			"boar_position": "(640.8694, 440.0747)",
+			"case": "boar_walk",
+			"direction": "(-0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 21.6755142211914,
+			"state": "walk",
+			"velocity": "(-2.702636, 0.0)"
+		},
+		{
+			"boar_position": "(639.1306, 440.0747)",
+			"case": "boar_walk",
+			"direction": "(0.707107, -0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 21.6755142211914,
+			"state": "walk",
+			"velocity": "(2.702636, 0.0)"
+		},
+		{
+			"boar_position": "(640.46, 425.9253)",
+			"case": "boar_walk",
+			"direction": "(-0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 23.3792781829834,
+			"state": "walk",
+			"velocity": "(-1.940918, 0.0)"
+		},
+		{
+			"boar_position": "(639.54, 425.9253)",
+			"case": "boar_walk",
+			"direction": "(0.707107, 0.707107)",
+			"penetration_area": 0.0,
+			"player_position": "(640.0, 432.0)",
+			"progress": 23.3792781829834,
+			"state": "walk",
+			"velocity": "(1.940918, 0.0)"
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(-1.0, 0.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 14.9986572265625
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(1.0, 0.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 14.9986572265625
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(0.0, -1.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 21.9986877441406
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(0.0, 1.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 19.9996948242188
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(-0.707107, -0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 31.3052921295166
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(0.707107, -0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 31.3052921295166
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(-0.707107, 0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 29.889892578125
+		},
+		{
+			"case": "walk_attack",
+			"direction": "(0.707107, 0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 29.889892578125
+		},
+		{
+			"case": "run_attack",
+			"direction": "(-1.0, 0.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 14.9981689453125
+		},
+		{
+			"case": "run_attack",
+			"direction": "(1.0, 0.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 14.9981689453125
+		},
+		{
+			"case": "run_attack",
+			"direction": "(0.0, -1.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 21.9981689453125
+		},
+		{
+			"case": "run_attack",
+			"direction": "(0.0, 1.0)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 19.9937744140625
+		},
+		{
+			"case": "run_attack",
+			"direction": "(-0.707107, -0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 120.772315979004
+		},
+		{
+			"case": "run_attack",
+			"direction": "(0.707107, -0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 120.772315979004
+		},
+		{
+			"case": "run_attack",
+			"direction": "(-0.707107, 0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 119.358100891113
+		},
+		{
+			"case": "run_attack",
+			"direction": "(0.707107, 0.707107)",
+			"finishes": 1,
+			"penetration_area": 0.0,
+			"progress": 119.358100891113
+		}
+	],
+	"checks": 4332,
+	"failures": 0,
+	"solid_static_bodies": 47,
+	"static_bodies": 49,
+	"static_shapes": 52
+}

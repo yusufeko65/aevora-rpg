@@ -27,7 +27,7 @@ y_sort_enabled = true
 
 [node name="Tree64" type="StaticBody2D" parent="Actors"]
 position = Vector2(336, 360)
-collision_layer = 3
+collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="Actors/Tree64"]
 texture = ExtResource("4")
@@ -40,7 +40,7 @@ shape = SubResource("Trunk64")
 
 [node name="Tree128" type="StaticBody2D" parent="Actors"]
 position = Vector2(670, 300)
-collision_layer = 3
+collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="Actors/Tree128"]
 texture = ExtResource("5")
@@ -59,7 +59,7 @@ position = Vector2(520, 326)
 
 [node name="Tree128West" type="StaticBody2D" parent="Actors"]
 position = Vector2(295, 256)
-collision_layer = 3
+collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="Actors/Tree128West"]
 texture = ExtResource("5")
@@ -72,7 +72,7 @@ shape = SubResource("Trunk128")
 
 [node name="Tree64South" type="StaticBody2D" parent="Actors"]
 position = Vector2(390, 440)
-collision_layer = 3
+collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="Actors/Tree64South"]
 texture = ExtResource("4")
@@ -85,7 +85,7 @@ shape = SubResource("Trunk64")
 
 [node name="Tree64East" type="StaticBody2D" parent="Actors"]
 position = Vector2(750, 380)
-collision_layer = 3
+collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="Actors/Tree64East"]
 texture = ExtResource("4")
@@ -97,6 +97,7 @@ position = Vector2(0, -3)
 shape = SubResource("Trunk64")
 
 [node name="Boundaries" type="StaticBody2D" parent="."]
+collision_layer = 2
 
 [node name="Top" type="CollisionShape2D" parent="Boundaries"]
 position = Vector2(480, 0)

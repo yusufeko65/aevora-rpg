@@ -44,7 +44,7 @@ func _build_home() -> void:
 	move_child(terrain, 1)
 	var house := StaticBody2D.new()
 	house.name = "House"
-	house.collision_layer = 3 # Player layer 1, ambient environment mask 2.
+	house.collision_layer = 2 # Environment only; actors select it through their masks.
 	var house_root := Vector2(spec.house_source_root[0], spec.house_source_root[1]) * 16
 	house.position = offset + house_root
 	get_node("Actors").add_child(house)
@@ -63,7 +63,7 @@ func _build_home() -> void:
 			for cell: Dictionary in layer.cells:
 				var segment := StaticBody2D.new()
 				segment.name = "Fence_%d_%d" % [cell.at.x, cell.at.y]
-				segment.collision_layer = 3
+				segment.collision_layer = 2
 				segment.position = offset + Vector2(cell.at) * 16 + Vector2(8, 16)
 				get_node("Actors").add_child(segment)
 				segment.add_child(_tile_visual([cell], -Vector2(cell.at) * 16 - Vector2(8, 16)))

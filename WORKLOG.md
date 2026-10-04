@@ -48,6 +48,14 @@ DEV-001..004 runtime outputs are superseded by DEV-R001. The entries below remai
 - Measured travel 43.19934px / 134.39929px at 48/112px/s. Walk swing reads coherently; Run Attack's long commitment is flagged for future review, not silently retuned. Fence/house/tree blocking does not interrupt completion. No combat, health, inventory or world expansion.
 - Verification: DEV-R001 3,701 PASS; DEV-R001.1 14,402/zero failures PASS; DEV-R001.2 726/zero failures PASS (18,829 total). Five 1280×720 captures visually reviewed. Full report: `docs/reports/dev-r001-2-direction-display-fence-collision.md`. Stop for user review / next explicit handoff.
 
+## DEV-R001.3 delivered actor collision correction (2026-10-04)
+
+- Replaced mixed layers with named Player / Environment / Fauna: Player1/mask6, Environment2, Boar4/mask3; migrated house, fence pieces, five trees and boundaries without geometry changes.
+- Player and Boar now block direct movement and moving attacks; diagonal contact may slide naturally without penetration. All 40 directional contact cases pass; attack completion remains once, returning to live input.
+- Preserved collider sizes/offsets, pivot, source mappings/art, ambient controller and DEV-R001.2 fence tuning. No combat, avoidance, new assets or CONTEXT.md.
+- Four regression suites pass: 23,161 checks /zero failures. Three native1280×720 F2/contact/Y-sort captures reviewed. Pre-existing unrelated edits preserved outside the commit.
+- Full evidence, issues and lessons: `docs/reports/dev-r001-3-actor-collision.md`. Stop for review; next track requires an explicit choice.
+
 ## Historical DEV-001..004 records
 
 ### DEV-001 Baseline inventory
