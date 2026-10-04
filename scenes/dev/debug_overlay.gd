@@ -18,7 +18,7 @@ func _ready() -> void:
 	hint = Label.new()
 	hint.position = Vector2(10, 327)
 	hint.add_theme_font_size_override("font_size", 10)
-	hint.text = "WASD  Move / Direction    Shift  Run    Tab  Equip / Unequip Sword\nLMB / J  Attack    F1  Debug Info    F2  Debug Guides    F3  Shadow Compare"
+	hint.text = "↑ ↓ ← →  Move / Direction    Shift  Run    Tab  Equip / Unequip Sword\nLMB / J  Attack    F1  Debug Info    F2  Debug Guides    F3  Shadow Compare"
 	hint.add_theme_color_override("font_shadow_color", Color.BLACK)
 	hint.add_theme_constant_override("shadow_offset_y", 1)
 	add_child(hint)

@@ -37,7 +37,6 @@ func _build_home() -> void:
 	var spec: Dictionary = SOURCES.data.world.home
 	var terrain_ids := PackedInt32Array(spec.terrain_layer_ids)
 	var house_ids := PackedInt32Array(spec.house_layer_ids)
-	var gate_gids := PackedInt32Array(spec.open_gate_gids)
 	var offset := Vector2(spec.offset[0], spec.offset[1])
 	var terrain := Node2D.new()
 	terrain.name = "HomeTerrain"
@@ -68,9 +67,11 @@ func _build_home() -> void:
 				segment.position = offset + Vector2(cell.at) * 16 + Vector2(8, 16)
 				get_node("Actors").add_child(segment)
 				segment.add_child(_tile_visual([cell], -Vector2(cell.at) * 16 - Vector2(8, 16)))
-				if not gate_gids.has(int(cell.gid)):
-					var side: bool = cell.at.y > -2 and cell.at.y < 6
-					_add_rectangle(segment, Vector2(6, 16) if side else Vector2(16, 4), Vector2(0, -8) if side else Vector2(0, -2))
+				var profile_id := str(int(cell.gid) & 0x0fffffff)
+				assert(spec.fence_collision_profiles.has(profile_id), "Unmapped fence piece GID: " + profile_id)
+				var profile: Dictionary = spec.fence_collision_profiles[profile_id]
+				for part: Dictionary in profile.shapes:
+					_add_rectangle(segment, Vector2(part.size[0], part.size[1]), Vector2(part.offset[0], part.offset[1]))
 
 func _tile_visual(cells: Array, offset: Vector2) -> Node2D:
 	var visual := HOME_TILES.new()

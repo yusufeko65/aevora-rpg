@@ -6,6 +6,38 @@ ART-001 and ART-002 were read on 2026-10-03, including `01 Asset Master`, `03 An
 
 TMX files are retained as mapping evidence, not loaded as runtime maps. They reference additional files deliberately omitted from this small subset; they are not standalone complete vendor packs. Runtime dependencies are enumerated in `data/source_mapping/craftpix.json`; byte hashes and decoded PNG measurements are in `craftpix_audit.json`.
 
+## DEV-R001.2 prototype additions (2026-10-04)
+
+The revised handoff records the user's confirmation that these are official free Craftpix downloads and authorizes Sword Walk/Run Attack for this prototype. This does not clear future public/commercial distribution. Preserve **ART-002 → 11 License & Replacement Ledger**: obtain the exact pack's final-use license/proof and approve its intended distribution, or replace the artwork before publication. No remote ledger was modified and no remote Git push is included.
+
+Fourteen original PNGs were fetched from the verified Male source folder through authenticated Drive access, without resizing, cropping, shifting, repainting or generating artwork. Existing `Base_boy.tmx` provides all source timelines and was not edited. Exact decoded dimensions and SHA-256 hashes remain in `data/source_mapping/craftpix_audit.json`. All 42 earlier PNGs and four TMX files retain their baseline hashes.
+
+| DEV-R001.2 original addition | Google Drive source | Source bytes |
+| --- | --- | ---: |
+| `main_character/male/Sword_Run_Attack_with_shadow.png` | [source](https://drive.google.com/file/d/1uG_AIGb_3ILJfXdz0YU2oPgsi6PmO8YZ/view?usp=drivesdk) | 14268 |
+| `main_character/male/Sword_Run_Attack_without_shadow.png` | [source](https://drive.google.com/file/d/1g_yathctMNj5mK2sbBEdfgt75IKOQ8S7/view?usp=drivesdk) | 13284 |
+| `main_character/male/Sword_Run_Attack2_sword_back.png` | [source](https://drive.google.com/file/d/1fZ9xIgQOyXu1uwEp9bAoEVgsdARsCERk/view?usp=drivesdk) | 6213 |
+| `main_character/male/Sword_Run_Attack3_body.png` | [source](https://drive.google.com/file/d/1Wofd-M_EB7PLHvLjs3oeptuRwRcbQRnY/view?usp=drivesdk) | 9724 |
+| `main_character/male/Sword_Run_Attack4_sword_front.png` | [source](https://drive.google.com/file/d/1BRYC2IMg7O-X5HOGh5yRkwNZvqFZ30DB/view?usp=drivesdk) | 6390 |
+| `main_character/male/Sword_Run_Attack5_head.png` | [source](https://drive.google.com/file/d/1JzBk7D2AdXqczH7xZmm9PpG4eQZG_PXm/view?usp=drivesdk) | 8268 |
+| `main_character/male/Sword_Run_Attack6_swing.png` | [source](https://drive.google.com/file/d/1sl7wz9-BDUp9JyxulTVy2IBCUacS2XEU/view?usp=drivesdk) | 5510 |
+| `main_character/male/Sword_Walk_Attack_with_shadow.png` | [source](https://drive.google.com/file/d/1y4AbIPoFL_oKQF7lckHm2bGP0wwpzqAt/view?usp=drivesdk) | 11817 |
+| `main_character/male/Sword_Walk_Attack_without_shadow.png` | [source](https://drive.google.com/file/d/17xu-sQVnNm2Rc_sWyf30jYyDFmSxht3X/view?usp=drivesdk) | 10891 |
+| `main_character/male/Sword_Walk_Attack2_sword_back.png` | [source](https://drive.google.com/file/d/15J8CSXt5HcU0KHjPQrFr8-zIhWLkVQup/view?usp=drivesdk) | 5691 |
+| `main_character/male/Sword_Walk_Attack3_body.png` | [source](https://drive.google.com/file/d/1GYq47fkWMaXVXPMDY-kZX9XJHJq2_nNm/view?usp=drivesdk) | 8266 |
+| `main_character/male/Sword_Walk_Attack4_sword_front.png` | [source](https://drive.google.com/file/d/1CehdDMys91-vsSkZET3aRBDmdVl_NbSf/view?usp=drivesdk) | 5802 |
+| `main_character/male/Sword_Walk_Attack5_head.png` | [source](https://drive.google.com/file/d/1Ka4JgzbdQHuIbb-d7PzACTtICbzboY05/view?usp=drivesdk) | 7175 |
+| `main_character/male/Sword_Walk_Attack6_swing.png` | [source](https://drive.google.com/file/d/1gy8ZzfaO2Fxbt8XkIlqNEQHFsXYuiTb6/view?usp=drivesdk) | 5313 |
+
+### Replacement/compliance status
+
+| Asset group | Current permission | Final release gate | Tracking |
+| --- | --- | --- | --- |
+| Seven Sword Walk Attack source PNGs above | User-authorized prototype/testing | Pending final-use clearance/proof **or legal final-art replacement** before public/commercial release | ART-002 → 11 License & Replacement Ledger; this provenance and audit |
+| Seven Sword Run Attack source PNGs above | User-authorized prototype/testing | Pending final-use clearance/proof **or legal final-art replacement** before public/commercial release | ART-002 → 11 License & Replacement Ledger; this provenance and audit |
+
+Do not remove this record when replacing assets. Retain source attribution and replacement history. Prototype authorization is not a blanket redistribution/commercial-license claim.
+
 ## Exact original source files
 
 DEV-R001.1 (2026-10-04) adds the following 13 original files (12 PNGs, 1 TMX), downloaded through the same authenticated Drive workflow. License remains **Pending**, local development/testing only. `Exterior.tmx` is the primary reference; its copy is not imported. The runtime reads only the selected terrain, house/window/roof, and fence layers. Unselected birds/cat/animated-tree references are not runtime dependencies. Door/window and chimney smoke use the exact source static pose, not a new animation system. Runtime source hashes and dimensions are re-audited; no original PNG/TMX was edited.

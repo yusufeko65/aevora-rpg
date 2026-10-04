@@ -37,6 +37,17 @@ DEV-001..004 runtime outputs are superseded by DEV-R001. The entries below remai
 - Final verification: source audit PASS; DEV-R001 regression 3,617 checks PASS; DEV-R001.1 14,402 checks / zero failures PASS, including accelerated 120s ambient physics-tick simulation and actual house/fence/gate/roof traversal. Runtime smoke clean; twelve 640×360 native captures visually reviewed. Historical captures preserved.
 - Complete mapping/import/file inventory, screenshots, controls, source discrepancy, deferred items and next visual review: `docs/reports/dev-r001-1-visual-playtest-sword-attack.md`. Stop here for review; no combat, inventory or NPC expansion.
 
+## DEV-R001.2 delivered corrective pass (2026-10-04)
+
+- Preserved parent `901e249d0f23371ba222a4c8e66cf43187b77e3c` and the DEV-R001.1 foundation. All 42 existing PNG / four TMX hashes and complete Idle/Walk/Run/standing Attack mappings remain unchanged. Followed revised moving-attack scope/acceptance over the stale introductory deferred line.
+- Added physical Arrow keys first in semantic movement actions; retained WASD aliases. Normal legend shows ↑ ↓ ← → and no WASD/B. Physical Arrow movement/facing, mixed aliases and physical J state selection are tested.
+- Verified actual Windows game client and root displayed framebuffer 1280×720, logical 640×360, exact 2× integer transform. Five native captures and machine-readable evidence are recorded; no image resizing or asset/character scale changes.
+- Replaced fence coordinate heuristics with static GID profiles. Measured original caps as 7px/8px, narrowed only outer caps, aligned sides with source bases, and added composite bottom corners. Former 12px gap is 0px; both-side upper/middle/lower and diagonal seam attempts block, outside caps pass, visible caps block, gate passes both ways.
+- Imported 14 unchanged original official-free Craftpix prototype Walk/Run Attack PNGs via verified Drive source. Audit now covers 56 PNGs/four TMX. Prototype permission, source links, hashes and pending final clearance/replacement remain recorded in PROVENANCE with ART-002 → 11 License & Replacement Ledger reference. No remote push or ledger modification.
+- Implemented walk_attack 6×150ms and run_attack 8×150ms, one-shot with locked facing/movement/speed class, collision and return to current live input. Every new 56 pose reconstructs full source, including shadow, within 1/255 tolerance. No new pose override; standing Attack Right/step0 override preserved.
+- Measured travel 43.19934px / 134.39929px at 48/112px/s. Walk swing reads coherently; Run Attack's long commitment is flagged for future review, not silently retuned. Fence/house/tree blocking does not interrupt completion. No combat, health, inventory or world expansion.
+- Verification: DEV-R001 3,701 PASS; DEV-R001.1 14,402/zero failures PASS; DEV-R001.2 726/zero failures PASS (18,829 total). Five 1280×720 captures visually reviewed. Full report: `docs/reports/dev-r001-2-direction-display-fence-collision.md`. Stop for user review / next explicit handoff.
+
 ## Historical DEV-001..004 records
 
 ### DEV-001 Baseline inventory

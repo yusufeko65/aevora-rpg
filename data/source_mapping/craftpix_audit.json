@@ -5086,6 +5086,2757 @@
 				256
 			]
 		},
+		"main_character/male/Sword_Run_Attack2_sword_back.png": {
+			"frames": [
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						36,
+						10,
+						7
+					],
+					"center_x": 29.0,
+					"feet_last_y": 42,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						30,
+						10,
+						7
+					],
+					"center_x": 25.0,
+					"feet_last_y": 36,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						21,
+						7,
+						10
+					],
+					"center_x": 26.5,
+					"feet_last_y": 30,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						36,
+						8,
+						8
+					],
+					"center_x": 23.0,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						11,
+						27,
+						10,
+						17
+					],
+					"center_x": 16.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						12,
+						24,
+						11,
+						13
+					],
+					"center_x": 17.5,
+					"feet_last_y": 36,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						16,
+						31,
+						10,
+						7
+					],
+					"center_x": 21.0,
+					"feet_last_y": 37,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						34,
+						10,
+						7
+					],
+					"center_x": 25.0,
+					"feet_last_y": 40,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						36,
+						34,
+						8,
+						8
+					],
+					"center_x": 40.0,
+					"feet_last_y": 41,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						36,
+						36,
+						10,
+						7
+					],
+					"center_x": 41.0,
+					"feet_last_y": 42,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						36,
+						31,
+						10,
+						7
+					],
+					"center_x": 41.0,
+					"feet_last_y": 37,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						19,
+						13,
+						8
+					],
+					"center_x": 32.5,
+					"feet_last_y": 26,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						17,
+						10,
+						16
+					],
+					"center_x": 18.0,
+					"feet_last_y": 32,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						18,
+						23,
+						8,
+						17
+					],
+					"center_x": 22.0,
+					"feet_last_y": 39,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						20,
+						27,
+						10,
+						7
+					],
+					"center_x": 25.0,
+					"feet_last_y": 33,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						8,
+						8
+					],
+					"center_x": 29.0,
+					"feet_last_y": 27,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "c5a3d4f33621d545cebb7e3f1f4465ee64d1a373f1f9bacf1444c540d87d9371",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack3_body.png": {
+			"frames": [
+				{
+					"bbox": [
+						24,
+						30,
+						13,
+						14
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						33,
+						13,
+						11
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						22,
+						29,
+						16,
+						15
+					],
+					"center_x": 30.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						31,
+						14,
+						13
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						28,
+						32,
+						13,
+						12
+					],
+					"center_x": 34.5,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						31,
+						13,
+						13
+					],
+					"center_x": 35.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						31,
+						10,
+						13
+					],
+					"center_x": 34.0,
+					"feet_last_y": 43,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						25,
+						30,
+						13,
+						11
+					],
+					"center_x": 31.5,
+					"feet_last_y": 40,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						30,
+						13,
+						14
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						27,
+						32,
+						10,
+						12
+					],
+					"center_x": 32.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						27,
+						31,
+						10,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						25,
+						32,
+						13,
+						11
+					],
+					"center_x": 31.5,
+					"feet_last_y": 42,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						30,
+						18,
+						14
+					],
+					"center_x": 28.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						21,
+						30,
+						17,
+						14
+					],
+					"center_x": 29.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						30,
+						14,
+						14
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						29,
+						15,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 41,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						27,
+						30,
+						12,
+						14
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						32,
+						11,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						22,
+						30,
+						14,
+						14
+					],
+					"center_x": 29.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						32,
+						14,
+						11
+					],
+					"center_x": 33.0,
+					"feet_last_y": 42,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						29,
+						18,
+						15
+					],
+					"center_x": 36.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						29,
+						15,
+						15
+					],
+					"center_x": 35.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						29,
+						13,
+						15
+					],
+					"center_x": 33.5,
+					"feet_last_y": 43,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						28,
+						14,
+						14
+					],
+					"center_x": 33.0,
+					"feet_last_y": 41,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						29,
+						12,
+						12
+					],
+					"center_x": 33.0,
+					"feet_last_y": 40,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						30,
+						14,
+						14
+					],
+					"center_x": 32.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						32,
+						14,
+						12
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						23,
+						29,
+						15,
+						15
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						22,
+						27,
+						13,
+						14
+					],
+					"center_x": 28.5,
+					"feet_last_y": 40,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						30,
+						12,
+						14
+					],
+					"center_x": 30.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						32,
+						12,
+						12
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						30,
+						12,
+						14
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "241c87f2cd4a071ed9329484c97d40f05afbd3b3fb267ab907a65b208c61176e",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack4_sword_front.png": {
+			"frames": [
+				{
+					"bbox": [
+						19,
+						34,
+						8,
+						8
+					],
+					"center_x": 23.0,
+					"feet_last_y": 41,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						34,
+						10,
+						7
+					],
+					"center_x": 21.0,
+					"feet_last_y": 40,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						15,
+						25,
+						10,
+						7
+					],
+					"center_x": 20.0,
+					"feet_last_y": 31,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						21,
+						42,
+						18,
+						8
+					],
+					"center_x": 30.0,
+					"feet_last_y": 49,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						35,
+						30,
+						14,
+						18
+					],
+					"center_x": 42.0,
+					"feet_last_y": 47,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						39,
+						25,
+						9,
+						22
+					],
+					"center_x": 43.5,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						36,
+						35,
+						10,
+						7
+					],
+					"center_x": 41.0,
+					"feet_last_y": 41,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						27,
+						37,
+						8,
+						8
+					],
+					"center_x": 31.0,
+					"feet_last_y": 44,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						29,
+						35,
+						8,
+						8
+					],
+					"center_x": 33.0,
+					"feet_last_y": 42,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						34,
+						10,
+						7
+					],
+					"center_x": 23.0,
+					"feet_last_y": 40,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						26,
+						10,
+						7
+					],
+					"center_x": 20.0,
+					"feet_last_y": 32,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						20,
+						38,
+						23,
+						8
+					],
+					"center_x": 31.5,
+					"feet_last_y": 45,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						40,
+						27,
+						13,
+						19
+					],
+					"center_x": 46.5,
+					"feet_last_y": 45,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						41,
+						24,
+						11,
+						13
+					],
+					"center_x": 46.5,
+					"feet_last_y": 36,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						38,
+						30,
+						10,
+						7
+					],
+					"center_x": 43.0,
+					"feet_last_y": 36,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						35,
+						35,
+						10,
+						7
+					],
+					"center_x": 40.0,
+					"feet_last_y": 41,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "2737c6ae8c2e369e4a6c5a9ce13a2d4a89eb6633e1fd98160c8c09e84b215549",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack5_head.png": {
+			"frames": [
+				{
+					"bbox": [
+						24,
+						22,
+						13,
+						13
+					],
+					"center_x": 30.5,
+					"feet_last_y": 34,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						23,
+						22,
+						13,
+						13
+					],
+					"center_x": 29.5,
+					"feet_last_y": 34,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						23,
+						20,
+						13,
+						13
+					],
+					"center_x": 29.5,
+					"feet_last_y": 32,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						25,
+						26,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 37,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						28,
+						24,
+						13,
+						13
+					],
+					"center_x": 34.5,
+					"feet_last_y": 36,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						22,
+						12,
+						13
+					],
+					"center_x": 35.0,
+					"feet_last_y": 34,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						28,
+						21,
+						13,
+						13
+					],
+					"center_x": 34.5,
+					"feet_last_y": 33,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						13,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 32,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						22,
+						12,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 34,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						26,
+						24,
+						12,
+						12
+					],
+					"center_x": 32.0,
+					"feet_last_y": 35,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						26,
+						20,
+						12,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 32,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						24,
+						12,
+						12
+					],
+					"center_x": 30.0,
+					"feet_last_y": 35,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						21,
+						22,
+						12,
+						13
+					],
+					"center_x": 27.0,
+					"feet_last_y": 34,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						21,
+						12,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 33,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						22,
+						12,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 34,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						25,
+						21,
+						12,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 33,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						12,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 33,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						24,
+						12,
+						12
+					],
+					"center_x": 32.0,
+					"feet_last_y": 35,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						12,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 32,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						23,
+						12,
+						12
+					],
+					"center_x": 34.0,
+					"feet_last_y": 34,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						31,
+						21,
+						12,
+						13
+					],
+					"center_x": 37.0,
+					"feet_last_y": 33,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						30,
+						20,
+						12,
+						13
+					],
+					"center_x": 36.0,
+					"feet_last_y": 32,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						29,
+						20,
+						12,
+						13
+					],
+					"center_x": 35.0,
+					"feet_last_y": 32,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						19,
+						12,
+						13
+					],
+					"center_x": 34.0,
+					"feet_last_y": 31,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						13,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 32,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						21,
+						13,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 33,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						24,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 35,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						22,
+						12,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 34,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						21,
+						18,
+						12,
+						13
+					],
+					"center_x": 27.0,
+					"feet_last_y": 30,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						23,
+						20,
+						12,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 32,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						13,
+						13
+					],
+					"center_x": 30.5,
+					"feet_last_y": 35,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						13,
+						13
+					],
+					"center_x": 30.5,
+					"feet_last_y": 33,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "1e455c8ed27575c8e547d516fac3b6640be00aaece7470d5cf489a8ef5f6d2e6",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack6_swing.png": {
+			"frames": [
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						37,
+						21,
+						14
+					],
+					"center_x": 26.5,
+					"feet_last_y": 50,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						41,
+						30,
+						9
+					],
+					"center_x": 32.0,
+					"feet_last_y": 49,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						46,
+						32,
+						10
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						49,
+						30,
+						7
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						43,
+						12,
+						3
+					],
+					"center_x": 26.0,
+					"feet_last_y": 45,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						26,
+						25,
+						21
+					],
+					"center_x": 21.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						10,
+						32
+					],
+					"center_x": 14.0,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						7,
+						30
+					],
+					"center_x": 12.5,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						36,
+						26,
+						11
+					],
+					"center_x": 28.0,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						26,
+						31,
+						21
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						45,
+						16,
+						10,
+						32
+					],
+					"center_x": 50.0,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						48,
+						17,
+						7,
+						30
+					],
+					"center_x": 51.5,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						28,
+						18,
+						21,
+						14
+					],
+					"center_x": 38.5,
+					"feet_last_y": 31,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						15,
+						15,
+						31,
+						7
+					],
+					"center_x": 30.5,
+					"feet_last_y": 21,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						15,
+						12,
+						32,
+						10
+					],
+					"center_x": 31.0,
+					"feet_last_y": 21,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						12,
+						30,
+						7
+					],
+					"center_x": 31.0,
+					"feet_last_y": 18,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "561f298817a83ad3c238bc46306bdcff52517f586959fa7955dd3b0cad2f84fd",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack_with_shadow.png": {
+			"frames": [
+				{
+					"bbox": [
+						19,
+						22,
+						20,
+						25
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						22,
+						23,
+						25
+					],
+					"center_x": 27.5,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						15,
+						20,
+						24,
+						27
+					],
+					"center_x": 27.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						26,
+						24,
+						25
+					],
+					"center_x": 28.0,
+					"feet_last_y": 50,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						24,
+						32,
+						26
+					],
+					"center_x": 33.0,
+					"feet_last_y": 49,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						22,
+						32,
+						34
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						21,
+						30,
+						35
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						15,
+						27
+					],
+					"center_x": 31.5,
+					"feet_last_y": 46,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						22,
+						15,
+						25
+					],
+					"center_x": 31.5,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						24,
+						19,
+						23
+					],
+					"center_x": 29.5,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						20,
+						16,
+						27
+					],
+					"center_x": 31.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						24,
+						20,
+						23
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						22,
+						30,
+						25
+					],
+					"center_x": 24.0,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						30,
+						32
+					],
+					"center_x": 24.0,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						30,
+						30
+					],
+					"center_x": 24.0,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						21,
+						19,
+						26
+					],
+					"center_x": 29.5,
+					"feet_last_y": 46,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						15,
+						26
+					],
+					"center_x": 31.5,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						24,
+						21,
+						23
+					],
+					"center_x": 28.5,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						20,
+						24,
+						27
+					],
+					"center_x": 27.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						23,
+						28,
+						24
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						31,
+						26
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						16,
+						31,
+						32
+					],
+					"center_x": 39.5,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						17,
+						31,
+						30
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						19,
+						21,
+						28
+					],
+					"center_x": 34.5,
+					"feet_last_y": 46,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						20,
+						27
+					],
+					"center_x": 34.0,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						22,
+						26
+					],
+					"center_x": 35.0,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						24,
+						22,
+						23
+					],
+					"center_x": 35.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						23,
+						18,
+						26,
+						29
+					],
+					"center_x": 36.0,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						15,
+						33,
+						32
+					],
+					"center_x": 29.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						15,
+						12,
+						32,
+						35
+					],
+					"center_x": 31.0,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						12,
+						30,
+						35
+					],
+					"center_x": 31.0,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						15,
+						27
+					],
+					"center_x": 31.5,
+					"feet_last_y": 46,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "2d752a5ceebdf567cae1511e50ce1a5b705ebfe22bf8acbf95a490d667b00fc6",
+			"size": [
+				512,
+				256
+			]
+		},
+		"main_character/male/Sword_Run_Attack_without_shadow.png": {
+			"frames": [
+				{
+					"bbox": [
+						19,
+						22,
+						18,
+						22
+					],
+					"center_x": 28.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						22,
+						21,
+						22
+					],
+					"center_x": 26.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						15,
+						20,
+						23,
+						24
+					],
+					"center_x": 26.5,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						26,
+						24,
+						25
+					],
+					"center_x": 28.0,
+					"feet_last_y": 50,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						24,
+						32,
+						26
+					],
+					"center_x": 33.0,
+					"feet_last_y": 49,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						22,
+						32,
+						34
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						21,
+						30,
+						35
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 6,
+					"row": 0
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						13,
+						25
+					],
+					"center_x": 31.5,
+					"feet_last_y": 44,
+					"frame": 7,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						22,
+						15,
+						22
+					],
+					"center_x": 31.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						24,
+						18,
+						20
+					],
+					"center_x": 29.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						20,
+						15,
+						24
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						24,
+						19,
+						22
+					],
+					"center_x": 28.5,
+					"feet_last_y": 45,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						22,
+						28,
+						25
+					],
+					"center_x": 23.0,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						29,
+						32
+					],
+					"center_x": 23.5,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						29,
+						30
+					],
+					"center_x": 23.5,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						21,
+						19,
+						21
+					],
+					"center_x": 29.5,
+					"feet_last_y": 41,
+					"frame": 7,
+					"row": 1
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						13,
+						23
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						24,
+						20,
+						20
+					],
+					"center_x": 28.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						20,
+						22,
+						24
+					],
+					"center_x": 26.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						23,
+						28,
+						24
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						31,
+						26
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						16,
+						27,
+						32
+					],
+					"center_x": 41.5,
+					"feet_last_y": 47,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						17,
+						28,
+						30
+					],
+					"center_x": 41.0,
+					"feet_last_y": 46,
+					"frame": 6,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						19,
+						19,
+						23
+					],
+					"center_x": 35.5,
+					"feet_last_y": 41,
+					"frame": 7,
+					"row": 2
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						19,
+						22
+					],
+					"center_x": 34.5,
+					"feet_last_y": 41,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						21,
+						21,
+						23
+					],
+					"center_x": 35.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						24,
+						22,
+						20
+					],
+					"center_x": 35.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						23,
+						18,
+						26,
+						26
+					],
+					"center_x": 36.0,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						15,
+						33,
+						26
+					],
+					"center_x": 29.5,
+					"feet_last_y": 40,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						15,
+						12,
+						32,
+						32
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						12,
+						30,
+						32
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 6,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						13,
+						24
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 7,
+					"row": 3
+				}
+			],
+			"sha256": "2e6b3d5e449254e1833fafa4d49e7309d590729a8df5407f5f10240ee3e7019b",
+			"size": [
+				512,
+				256
+			]
+		},
 		"main_character/male/Sword_Run_without_shadow.png": {
 			"frames": [
 				{
@@ -6662,6 +9413,2085 @@
 				}
 			],
 			"sha256": "d2da538b078ee4d3c9ac2f0e9fd358ebf058a769906cc33ec0fbe94b11bae55b",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack2_sword_back.png": {
+			"frames": [
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						7,
+						10
+					],
+					"center_x": 29.5,
+					"feet_last_y": 30,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						36,
+						8,
+						8
+					],
+					"center_x": 23.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						11,
+						27,
+						10,
+						17
+					],
+					"center_x": 16.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						12,
+						24,
+						11,
+						13
+					],
+					"center_x": 17.5,
+					"feet_last_y": 36,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						16,
+						31,
+						10,
+						7
+					],
+					"center_x": 21.0,
+					"feet_last_y": 37,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						36,
+						10,
+						7
+					],
+					"center_x": 25.0,
+					"feet_last_y": 42,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						36,
+						36,
+						10,
+						7
+					],
+					"center_x": 41.0,
+					"feet_last_y": 42,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						18,
+						8
+					],
+					"center_x": 35.0,
+					"feet_last_y": 28,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						20,
+						13,
+						19
+					],
+					"center_x": 19.5,
+					"feet_last_y": 38,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						25,
+						8,
+						17
+					],
+					"center_x": 20.0,
+					"feet_last_y": 41,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						18,
+						27,
+						10,
+						7
+					],
+					"center_x": 23.0,
+					"feet_last_y": 33,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						8,
+						8
+					],
+					"center_x": 30.0,
+					"feet_last_y": 28,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "45dfc0ade1297046534e0e482ca30d275aa8ce0cfcd67b96fa477c6a8a7fc08c",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack3_body.png": {
+			"frames": [
+				{
+					"bbox": [
+						23,
+						32,
+						14,
+						12
+					],
+					"center_x": 30.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						33,
+						15,
+						13
+					],
+					"center_x": 33.5,
+					"feet_last_y": 45,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						27,
+						33,
+						16,
+						11
+					],
+					"center_x": 35.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						31,
+						15,
+						13
+					],
+					"center_x": 36.5,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						33,
+						10,
+						11
+					],
+					"center_x": 34.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						27,
+						32,
+						11,
+						12
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						30,
+						14,
+						14
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						25,
+						32,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						31,
+						17,
+						13
+					],
+					"center_x": 27.5,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						21,
+						30,
+						17,
+						14
+					],
+					"center_x": 29.5,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						31,
+						14,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						27,
+						31,
+						11,
+						13
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						31,
+						16,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						32,
+						10,
+						12
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						30,
+						31,
+						15,
+						13
+					],
+					"center_x": 37.5,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						30,
+						16,
+						14
+					],
+					"center_x": 35.0,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						31,
+						12,
+						13
+					],
+					"center_x": 34.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						31,
+						12,
+						13
+					],
+					"center_x": 30.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						25,
+						31,
+						13,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						32,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						22,
+						31,
+						14,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						22,
+						32,
+						14,
+						12
+					],
+					"center_x": 29.0,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						31,
+						11,
+						13
+					],
+					"center_x": 30.5,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						32,
+						12,
+						12
+					],
+					"center_x": 32.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "6efcb4d176c07f8f89dfada897883304d57e5916e0b1cd5d71eeea016d87c4cf",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack4_sword_front.png": {
+			"frames": [
+				{
+					"bbox": [
+						16,
+						34,
+						10,
+						7
+					],
+					"center_x": 21.0,
+					"feet_last_y": 40,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						21,
+						43,
+						18,
+						8
+					],
+					"center_x": 30.0,
+					"feet_last_y": 50,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						38,
+						30,
+						13,
+						19
+					],
+					"center_x": 44.5,
+					"feet_last_y": 48,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						41,
+						25,
+						9,
+						22
+					],
+					"center_x": 45.5,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						36,
+						36,
+						10,
+						7
+					],
+					"center_x": 41.0,
+					"feet_last_y": 42,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						29,
+						39,
+						8,
+						8
+					],
+					"center_x": 33.0,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						16,
+						27,
+						10,
+						7
+					],
+					"center_x": 21.0,
+					"feet_last_y": 33,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						20,
+						38,
+						23,
+						8
+					],
+					"center_x": 31.5,
+					"feet_last_y": 45,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						40,
+						27,
+						13,
+						19
+					],
+					"center_x": 46.5,
+					"feet_last_y": 45,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						41,
+						24,
+						11,
+						13
+					],
+					"center_x": 46.5,
+					"feet_last_y": 36,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						38,
+						31,
+						10,
+						7
+					],
+					"center_x": 43.0,
+					"feet_last_y": 37,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						33,
+						10,
+						7
+					],
+					"center_x": 23.0,
+					"feet_last_y": 39,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "c9980bf03cbda31d6877d4e54775768b8174a315bf7f3f14f6afebb904a14164",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack5_head.png": {
+			"frames": [
+				{
+					"bbox": [
+						25,
+						23,
+						13,
+						13
+					],
+					"center_x": 31.5,
+					"feet_last_y": 35,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						25,
+						28,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 39,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						30,
+						23,
+						13,
+						13
+					],
+					"center_x": 36.5,
+					"feet_last_y": 35,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						30,
+						22,
+						12,
+						13
+					],
+					"center_x": 36.0,
+					"feet_last_y": 34,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						28,
+						23,
+						13,
+						13
+					],
+					"center_x": 34.5,
+					"feet_last_y": 35,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						27,
+						23,
+						13,
+						13
+					],
+					"center_x": 33.5,
+					"feet_last_y": 35,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						28,
+						20,
+						12,
+						13
+					],
+					"center_x": 34.0,
+					"feet_last_y": 32,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						12,
+						12
+					],
+					"center_x": 30.0,
+					"feet_last_y": 34,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						21,
+						22,
+						12,
+						13
+					],
+					"center_x": 27.0,
+					"feet_last_y": 34,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						21,
+						12,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 33,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						23,
+						22,
+						12,
+						13
+					],
+					"center_x": 29.0,
+					"feet_last_y": 34,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						26,
+						22,
+						12,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 34,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						12,
+						13
+					],
+					"center_x": 31.0,
+					"feet_last_y": 32,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						23,
+						12,
+						12
+					],
+					"center_x": 34.0,
+					"feet_last_y": 34,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						31,
+						22,
+						12,
+						13
+					],
+					"center_x": 37.0,
+					"feet_last_y": 34,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						29,
+						21,
+						12,
+						13
+					],
+					"center_x": 35.0,
+					"feet_last_y": 33,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						29,
+						22,
+						12,
+						13
+					],
+					"center_x": 35.0,
+					"feet_last_y": 34,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						26,
+						22,
+						12,
+						13
+					],
+					"center_x": 32.0,
+					"feet_last_y": 34,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						13,
+						13
+					],
+					"center_x": 30.5,
+					"feet_last_y": 35,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						24,
+						13,
+						12
+					],
+					"center_x": 31.5,
+					"feet_last_y": 35,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						21,
+						24,
+						12,
+						13
+					],
+					"center_x": 27.0,
+					"feet_last_y": 36,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						22,
+						22,
+						12,
+						13
+					],
+					"center_x": 28.0,
+					"feet_last_y": 34,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						12,
+						13
+					],
+					"center_x": 30.0,
+					"feet_last_y": 33,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						22,
+						13,
+						13
+					],
+					"center_x": 32.5,
+					"feet_last_y": 34,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "495d0762f8529c2daa0ff8a8c894493d85fdfd9bc4ad1b9909fb0be056181a84",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack6_swing.png": {
+			"frames": [
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						38,
+						21,
+						14
+					],
+					"center_x": 26.5,
+					"feet_last_y": 51,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						43,
+						30,
+						9
+					],
+					"center_x": 32.0,
+					"feet_last_y": 51,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						46,
+						32,
+						10
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						49,
+						30,
+						7
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						43,
+						12,
+						3
+					],
+					"center_x": 26.0,
+					"feet_last_y": 45,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						26,
+						25,
+						21
+					],
+					"center_x": 21.5,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						10,
+						32
+					],
+					"center_x": 14.0,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						7,
+						30
+					],
+					"center_x": 12.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						36,
+						26,
+						11
+					],
+					"center_x": 28.0,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						26,
+						31,
+						21
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						45,
+						16,
+						10,
+						32
+					],
+					"center_x": 50.0,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						48,
+						17,
+						7,
+						30
+					],
+					"center_x": 51.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						28,
+						20,
+						21,
+						14
+					],
+					"center_x": 38.5,
+					"feet_last_y": 33,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						17,
+						17,
+						30,
+						9
+					],
+					"center_x": 32.0,
+					"feet_last_y": 25,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						17,
+						13,
+						32,
+						10
+					],
+					"center_x": 33.0,
+					"feet_last_y": 22,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						18,
+						13,
+						30,
+						7
+					],
+					"center_x": 33.0,
+					"feet_last_y": 19,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						0,
+						0,
+						0,
+						0
+					],
+					"center_x": 0.0,
+					"feet_last_y": -1,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "b2c5a08fb179ab5b2d6aa9ca8bcb09d20f7e21a91c82ca96e933757ec715a1b3",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack_with_shadow.png": {
+			"frames": [
+				{
+					"bbox": [
+						16,
+						23,
+						23,
+						24
+					],
+					"center_x": 27.5,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						28,
+						25,
+						24
+					],
+					"center_x": 28.5,
+					"feet_last_y": 51,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						23,
+						34,
+						29
+					],
+					"center_x": 34.0,
+					"feet_last_y": 51,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						22,
+						33,
+						34
+					],
+					"center_x": 33.5,
+					"feet_last_y": 55,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						23,
+						30,
+						33
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						16,
+						24
+					],
+					"center_x": 32.0,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						16,
+						27
+					],
+					"center_x": 32.0,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						23,
+						20,
+						24
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						22,
+						30,
+						25
+					],
+					"center_x": 24.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						30,
+						32
+					],
+					"center_x": 24.0,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						30,
+						30
+					],
+					"center_x": 24.0,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						22,
+						19,
+						25
+					],
+					"center_x": 29.5,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						16,
+						20,
+						23,
+						27
+					],
+					"center_x": 27.5,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						23,
+						28,
+						24
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						22,
+						31,
+						25
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						16,
+						31,
+						32
+					],
+					"center_x": 39.5,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						17,
+						31,
+						30
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						22,
+						21,
+						25
+					],
+					"center_x": 28.5,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						22,
+						24
+					],
+					"center_x": 35.0,
+					"feet_last_y": 46,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						20,
+						25,
+						27
+					],
+					"center_x": 36.5,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						17,
+						34,
+						30
+					],
+					"center_x": 30.0,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						13,
+						33,
+						34
+					],
+					"center_x": 32.5,
+					"feet_last_y": 46,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						18,
+						13,
+						30,
+						34
+					],
+					"center_x": 33.0,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						24,
+						21,
+						15,
+						26
+					],
+					"center_x": 31.5,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "dc70600366727ba755a283207d9aac533e93bbeeba7eb4d022edbe4ecddc826b",
+			"size": [
+				384,
+				256
+			]
+		},
+		"main_character/male/Sword_Walk_Attack_without_shadow.png": {
+			"frames": [
+				{
+					"bbox": [
+						16,
+						23,
+						22,
+						21
+					],
+					"center_x": 27.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 0
+				},
+				{
+					"bbox": [
+						16,
+						28,
+						25,
+						24
+					],
+					"center_x": 28.5,
+					"feet_last_y": 51,
+					"frame": 1,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						23,
+						34,
+						29
+					],
+					"center_x": 34.0,
+					"feet_last_y": 51,
+					"frame": 2,
+					"row": 0
+				},
+				{
+					"bbox": [
+						17,
+						22,
+						33,
+						34
+					],
+					"center_x": 33.5,
+					"feet_last_y": 55,
+					"frame": 3,
+					"row": 0
+				},
+				{
+					"bbox": [
+						18,
+						23,
+						30,
+						33
+					],
+					"center_x": 33.0,
+					"feet_last_y": 55,
+					"frame": 4,
+					"row": 0
+				},
+				{
+					"bbox": [
+						27,
+						23,
+						13,
+						24
+					],
+					"center_x": 33.5,
+					"feet_last_y": 46,
+					"frame": 5,
+					"row": 0
+				},
+				{
+					"bbox": [
+						26,
+						20,
+						14,
+						24
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 1
+				},
+				{
+					"bbox": [
+						19,
+						23,
+						19,
+						23
+					],
+					"center_x": 28.5,
+					"feet_last_y": 45,
+					"frame": 1,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						22,
+						27,
+						25
+					],
+					"center_x": 22.5,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						16,
+						29,
+						32
+					],
+					"center_x": 23.5,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 1
+				},
+				{
+					"bbox": [
+						9,
+						17,
+						29,
+						30
+					],
+					"center_x": 23.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 1
+				},
+				{
+					"bbox": [
+						20,
+						22,
+						18,
+						22
+					],
+					"center_x": 29.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 1
+				},
+				{
+					"bbox": [
+						16,
+						20,
+						23,
+						24
+					],
+					"center_x": 27.5,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 2
+				},
+				{
+					"bbox": [
+						15,
+						23,
+						28,
+						24
+					],
+					"center_x": 29.0,
+					"feet_last_y": 46,
+					"frame": 1,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						22,
+						31,
+						25
+					],
+					"center_x": 39.5,
+					"feet_last_y": 46,
+					"frame": 2,
+					"row": 2
+				},
+				{
+					"bbox": [
+						27,
+						16,
+						28,
+						32
+					],
+					"center_x": 41.0,
+					"feet_last_y": 47,
+					"frame": 3,
+					"row": 2
+				},
+				{
+					"bbox": [
+						28,
+						17,
+						27,
+						30
+					],
+					"center_x": 41.5,
+					"feet_last_y": 46,
+					"frame": 4,
+					"row": 2
+				},
+				{
+					"bbox": [
+						18,
+						22,
+						20,
+						22
+					],
+					"center_x": 28.0,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 2
+				},
+				{
+					"bbox": [
+						24,
+						23,
+						22,
+						21
+					],
+					"center_x": 35.0,
+					"feet_last_y": 43,
+					"frame": 0,
+					"row": 3
+				},
+				{
+					"bbox": [
+						25,
+						20,
+						24,
+						24
+					],
+					"center_x": 37.0,
+					"feet_last_y": 43,
+					"frame": 1,
+					"row": 3
+				},
+				{
+					"bbox": [
+						13,
+						17,
+						34,
+						27
+					],
+					"center_x": 30.0,
+					"feet_last_y": 43,
+					"frame": 2,
+					"row": 3
+				},
+				{
+					"bbox": [
+						16,
+						13,
+						33,
+						31
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 3,
+					"row": 3
+				},
+				{
+					"bbox": [
+						18,
+						13,
+						30,
+						31
+					],
+					"center_x": 33.0,
+					"feet_last_y": 43,
+					"frame": 4,
+					"row": 3
+				},
+				{
+					"bbox": [
+						26,
+						21,
+						13,
+						23
+					],
+					"center_x": 32.5,
+					"feet_last_y": 43,
+					"frame": 5,
+					"row": 3
+				}
+			],
+			"sha256": "8d8dada4f9026e1e934ef2c8d86d3551b0e9c50498fff89ebb90d19d4ffeb213",
 			"size": [
 				384,
 				256

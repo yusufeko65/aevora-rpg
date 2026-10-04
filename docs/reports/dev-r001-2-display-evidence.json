@@ -1,0 +1,147 @@
+[
+	{
+		"capture_method": "actual root Window display framebuffer; no PNG resizing",
+		"file": "dev-r001-2-display-1280x720.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"player": {
+			"facing": "down",
+			"frame": 8,
+			"position": [
+				520.0,
+				326.0
+			],
+			"state": "idle"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"capture_method": "actual root Window display framebuffer; no PNG resizing",
+		"file": "dev-r001-2-fence-collision.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"player": {
+			"facing": "down",
+			"frame": 8,
+			"position": [
+				520.0,
+				326.0
+			],
+			"state": "idle"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"capture_method": "actual root Window display framebuffer; no PNG resizing",
+		"file": "dev-r001-2-arrow-input.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"player": {
+			"facing": "right",
+			"frame": 0,
+			"position": [
+				463.599792480469,
+				450.0
+			],
+			"state": "walk"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"capture_method": "actual root Window display framebuffer; no PNG resizing",
+		"file": "dev-r001-2-walk_attack.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"player": {
+			"facing": "right",
+			"frame": 2,
+			"position": [
+				436.799743652344,
+				450.0
+			],
+			"state": "walk_attack"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"window_size": [
+			1280,
+			720
+		]
+	},
+	{
+		"capture_method": "actual root Window display framebuffer; no PNG resizing",
+		"file": "dev-r001-2-run_attack.png",
+		"framebuffer_size": [
+			1280,
+			720
+		],
+		"logical_size": [
+			640,
+			360
+		],
+		"player": {
+			"facing": "right",
+			"frame": 3,
+			"position": [
+				485.333404541016,
+				450.0
+			],
+			"state": "run_attack"
+		},
+		"stretch_scale": [
+			2.0,
+			2.0
+		],
+		"window_size": [
+			1280,
+			720
+		]
+	}
+]
